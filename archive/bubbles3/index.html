@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>LEAP stakeholder map</title>
+    <meta name="description" content="LEAP stakeholder map">
+    <meta name="author" content="Denes Csala">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/bubbles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="header">
+            <h1>Stakeholder map</h1>
+            <div id="toolbar">
+                <span id="group"><span>Group by</span>
+                <a href="javascript:;" id="all" class="button">All</a>
+                <a href="javascript:;" id="priority" class="button active">Priority</a>
+                </span>
+                <span id="filter"><span>Filter by</span></span>
+                <span id="neighbors"><span>Show only neighbors on selection</span>
+                <a href="javascript:;" id="on" class="button">On</a>
+                <a href="javascript:;" id="off" class="button active">Off</a>
+                </span>
+                <span id="color"><span>Color by</span>
+                <a href="javascript:;" id="all" class="button">All</a>
+                <a href="javascript:;" id="priority" class="button active">Priority</a>
+                </span>
+            </div>
+        </div>
+        <div id="main">
+            <div id="vis"></div>
+            <div id="stakeholder-table">table</div>
+        </div>
+
+        <script src="//d3js.org/d3.v4.min.js"></script>
+        <script src="//d3plus.org/js/d3plus-text.v0.10.full.min.js"></script>
+        <!-- <script src="//d3plus.org/js/d3plus-color.v0.7.full.min.js"></script> -->
+        <!-- <script src="//d3plus.org/js/d3plus.v2.0.0-alpha.30.full.min.js"></script> -->
+        <script src="src/tooltip.js"></script>
+        <script src="src/bubbles.js"></script>
+
+</body>
+
+</html>

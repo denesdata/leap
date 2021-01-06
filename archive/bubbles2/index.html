@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bubble Chart v4 - vallandingham.me</title>
+    <meta name="description" content="Using D3v4 to create a Bubble chart. Based on NYT visualization">
+    <meta name="author" content="Jim Vallandingham">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bubble_chart.css">
+    <!-- <link rel="stylesheet" href="css/network_menu.css"> -->
+</head>
+
+<body>
+    <div class="container">
+        <h1>Stakeholder map</h1>
+        <div id="toolbar">
+            <div id="filter"><span>Filter by</span></div>
+            <br>
+            <div id="neighbors"><span>Show only neighbors on selection</span>
+                <a href="javascript:;" id="on" class="button">On</a>
+                <a href="javascript:;" id="off" class="button active">Off</a>
+            </div>
+            <br>
+            <div id="group"><span>Group by</span>
+                <a href="javascript:;" id="all" class="button">All</a>
+                <a href="javascript:;" id="priority" class="button active">Priority</a>
+            </div>
+            <br>
+            <div id="color"><span>Color by</span>
+                <a href="javascript:;" id="all" class="button">All</a>
+                <a href="javascript:;" id="priority" class="button active">Priority</a>
+            </div>
+        </div>
+        <div id="main">
+            <div id="vis"></div>
+        </div>
+
+        <script src="//d3js.org/d3.v4.min.js"></script>
+        <script src="src/tooltip.js"></script>
+        <script src="src/bubble_chart.js"></script>
+        <!-- <script src="src/network_menu.js"></script> -->
+
+</body>
+
+</html>
