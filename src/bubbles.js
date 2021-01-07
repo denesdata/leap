@@ -938,7 +938,7 @@ function setupButtons() {
 }
 
 // Load the data.
-d3.json('data/nodes_edges_table_lessons2.json', display);
+d3.json('data/nodes_edges_table_lessons3.json', display);
 
 // setup the buttons.
 setupButtons();
