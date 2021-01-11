@@ -54,6 +54,7 @@ table {
     width: 100%;
     margin: auto;
     padding-bottom: 100px;
+    min-width: 1000px;
 }
 
 #details {
@@ -552,9 +553,14 @@ table {
 }
 
 .graph .d3plus-Line-text text {
-    font-size: 12px !important;
+    /* font-size: 11px !important; */
 }
 
 .graph .d3plus-viz-title text {
-    font-size: 14px !important;
+    /* font-size: 14px !important; */
+}
+
+.graph {
+    padding-left: 10px;
+    padding-right: 10px;
 }

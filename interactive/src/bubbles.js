@@ -418,6 +418,7 @@ function bubbleChart() {
             else if (d == 'parents') return d3.rgb(255, 255, 255, 1)
             else if (d == 'teachers') return d3.rgb(255, 255, 255, 0.4)
             else if (d == 'sometimes') return d3.rgb(255, 255, 255, 0.6)
+            else if (d == 'often') return d3.rgb(255, 255, 255, 1)
             else if (d == 'always') return d3.rgb(255, 255, 255, 1)
             else if (d == 'never') return d3.rgb(255, 255, 255, 0.2)
             else if (d == 'almost everyday') return d3.rgb(255, 255, 255, 1)
@@ -429,6 +430,13 @@ function bubbleChart() {
             else if (d == 'at least once a week') return d3.rgb(255, 255, 255, 0.8)
             else if (d == 'several times a month') return d3.rgb(255, 255, 255, 0.6)
             else if (d == 'once a month or less') return d3.rgb(255, 255, 255, 0.4)
+            else if (d == 'mostly school') return d3.rgb(255, 255, 255, 0.2)
+            else if (d == 'mostly parents') return d3.rgb(255, 255, 255, 1)
+            else if (d == 'more parents than school') return d3.rgb(255, 255, 255, 0.8)
+            else if (d == 'both school and parents ') return d3.rgb(255, 255, 255, 0.6)
+            else if (d == 'more school than parents') return d3.rgb(255, 255, 255, 0.4)
+            else if (d == 'sex') return d3.rgb(255, 255, 255, 1)
+            else if (d == 'talked about') return d3.rgb(255, 255, 255, 1)
             else return d3.rgb(255, 255, 255, 0.5)
         }
 
@@ -439,13 +447,16 @@ function bubbleChart() {
             size = size * barHeight;
             size = Math.max(300, Math.min(size, 600));
 
-            // s = d3.select(s).select('.graph');
-
             new d3plus.BarChart()
                 .select(s.node())
                 .config({
                     data: graphs[i].data,
                     title: ((graphs[i].title == 'None') ? false : graphs[i].title),
+                    titlePadding: false,
+                    titleConfig: {
+                        fontSize: 14,
+                        padding: '00 0 20 0'
+                    },
                     // barPadding: 1,
                     // groupPadding: 5,
                     x: "value",
@@ -457,7 +468,9 @@ function bubbleChart() {
                         return colorizer(d.id)
                     },
                     yConfig: {
-                        maxSize: 80,
+                        minSize: 60,
+                        maxSize: 110,
+                        labelOffset: false,
                         barConfig: {
                             stroke: 'white',
                         },
@@ -465,7 +478,7 @@ function bubbleChart() {
                             stroke: "transparent"
                         },
                         shapeConfig: {
-                            stroke: "white"
+                            stroke: "white",
                         }
                     },
                     xConfig: {
@@ -491,7 +504,8 @@ function bubbleChart() {
                             }]
                         ]
                     },
-                    legend: false
+                    legend: false,
+                    // detectVisible: false
                 })
                 .render();
         }
@@ -556,12 +570,14 @@ function bubbleChart() {
                     ((d.Type == 'Quantitative research') ? '<div class="lesson" style="margin-top:30px;">' + d.Quote + '</div>' : '') +
                     ((d.Type == 'Quantitative research') ?
                         // ((d.Graph != 'None') ? '<div><img src="quant/' + d.Graph + '.png" style="width:245px;margin-top:10px;"></div>' : '') : '') +
-                        ((d.Graph != 'None') ? '<div class="graph" id="graph' + d.Graph + '"></div>' : '') : '') +
-                    '</div>'
+                        ((d.Graph != 'None') ? '' : '') : '') +
+                    '</div>' +
+                    ((d.Graph != 'None') ? '<div class="graph" id="graph' + d.Graph + '"></div>' : '')
             })
             .classed('processed', function (d) {
                 if (d.Graph != 'None') {
                     createGraph(d.Graph, d3.select(this).select('.graph'))
+                    // createGraph(d.Graph, d3.select(this))
                 } else return true;
             })
         d3.select('#lessons-head th')

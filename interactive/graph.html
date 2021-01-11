@@ -7,8 +7,8 @@
   <title>Horizontal Bar Chart | D3plus</title>
 
   <script src="//d3js.org/d3.v4.min.js"></script>
-  <script src="https://d3plus.org/js/d3plus-plot.v0.9.full.min.js"></script>
-  <!-- <script src="src/d3plus.js"></script> -->
+  <!-- <script src="https://d3plus.org/js/d3plus-plot.v0.9.full.min.js"></script> -->
+  <script src="src/d3plus2.js"></script>
   <!-- <script src="https://d3plus.org/js/d3plus-hierarchy.v0.9.full.min.js"></script> -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,900">
@@ -87,9 +87,9 @@
           (new Set(data[i].data.map(value => value.id))).size + 4
         var barHeight = 7
         size = size * barHeight
-        size = Math.max(300, Math.min(size, 600))
+        // size = Math.max(300, Math.min(size, 600))
         if (i > 4) {
-          d3.select('body').append('div')
+          d3.select('#table').append('div')
             .attr('id', 'viz' + i)
             .classed('viz', true)
             .style('height', (size) + 'px')
@@ -106,7 +106,7 @@
             .select('#viz' + i)
             .config({
               data: data[i].data,
-              title: ((data[i].title == 'None') ? false : data[i].title),
+              // title: ((data[i].title == 'None') ? false : data[i].title),
               // barPadding: 1,
               // groupPadding: 5,
               x: "value",
@@ -116,13 +116,18 @@
               height: size,
               color: function (d) { return colorizer(d.id) },
               yConfig: {
-                maxSize: 80,
+                // maxSize: 100,
+                // paddingOuter: 120,
                 barConfig: {
                   // "stroke-width": 0,
                   stroke: 'white',
                 },
                 gridConfig: { stroke: "transparent" },
-                shapeConfig: { stroke: "white" }
+                shapeConfig: { stroke: "white" },
+                labelOffset: false,
+                // labelConfig: {
+                //   fontSize: 22,
+                // }
               },
               xConfig: {
                 barConfig: {
@@ -130,25 +135,31 @@
                   stroke: 'white',
                 },
                 gridConfig: { stroke: "transparent" },
-                shapeConfig: { stroke: "white" }
-              },
-              tooltipConfig: {
-                title: function (d) {
-                  return d["id"];
+                shapeConfig: {
+                  stroke: "white",
                 },
-                tbody: [
-                  [function (d) { return d["option"] + ': ' }, function (d) { return d["value"] + " %" }]
-                ]
               },
-              // lineLabels:true,
-              // lineMarkers: true,
-              // sizeMax: 100,
-              // shapeConfig: {
-              //   labelConfig: {
-              //     fontColor: 'red',
-              //     fontMin: 1
-              //   },
-              // },
+              shapeConfig: {
+                tooltipConfig: {
+                  title: function (d) {
+                    return d["id"];
+                  },
+                },
+                  tbody: [
+                    [function (d) { return d["option"] + ': ' }, function (d) { return d["value"] + " %" }]
+                  ],
+                
+                // lineLabels:true,
+                // lineMarkers: true,
+                // sizeMax: 100,
+                // shapeConfig: {
+                //   labelConfig: {
+                //     fontColor: 'red',
+                //     fontMin: 1
+                //   },
+                // },
+                label: function (d) { return d["value"] },
+              },
               legend: false
             })
             .render();
