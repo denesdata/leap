@@ -504,7 +504,8 @@ function bubbleChart() {
                             }]
                         ]
                     },
-                    legend: false
+                    legend: false,
+                    detectVisible: false
                 })
                 .render();
         }
