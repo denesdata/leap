@@ -54,6 +54,7 @@ table {
     width: 100%;
     margin: auto;
     padding-bottom: 100px;
+    min-width: 1000px;
 }
 
 #details {
@@ -540,4 +541,26 @@ table {
 .showBtn {
     opacity: 1;
     transform: translateY(0)
+}
+
+.graph .d3plus-viz-title text,
+.graph .d3plus-Line-text text {
+    fill: #fff !important;
+}
+
+.graph text {
+    font-family: "Roboto Condensed" !important;
+}
+
+.graph .d3plus-Line-text text {
+    /* font-size: 11px !important; */
+}
+
+.graph .d3plus-viz-title text {
+    /* font-size: 14px !important; */
+}
+
+.graph {
+    padding-left: 10px;
+    padding-right: 10px;
 }
