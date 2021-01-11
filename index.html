@@ -4,16 +4,12 @@
 <head>
     <meta charset="utf-8">
     <title>LEAP &#8212; stakeholders and lessons</title>
-    <meta name="description"
-        content="Interactive database of stakeholders with formal status that have or can have an impact on the specific problems of the young population in the Cluj metropolitan area, lessons learnt from the quantitative and qualitative studies as well as policy recommendations">
+    <meta name="description" content="Interactive database of stakeholders with formal status that have or can have an impact on the specific problems of the young population in the Cluj metropolitan area, lessons learnt from the quantitative and qualitative studies as well as policy recommendations">
     <meta name="author" content="Denes Csala">
 
-    <link rel="icon" href="https://leapcluj.ro/wp-content/uploads/2020/05/cropped-LEAP-logo1x1-192x192.png"
-        sizes="192x192" />
-    <link rel="apple-touch-icon"
-        href="https://leapcluj.ro/wp-content/uploads/2020/05/cropped-LEAP-logo1x1-180x180.png" />
-    <meta name="msapplication-TileImage"
-        content="https://leapcluj.ro/wp-content/uploads/2020/05/cropped-LEAP-logo1x1-270x270.png" />
+    <link rel="icon" href="https://leapcluj.ro/wp-content/uploads/2020/05/cropped-LEAP-logo1x1-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://leapcluj.ro/wp-content/uploads/2020/05/cropped-LEAP-logo1x1-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://leapcluj.ro/wp-content/uploads/2020/05/cropped-LEAP-logo1x1-270x270.png" />
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/bubbles.css">
@@ -39,10 +35,7 @@
                                     LEAP &#8212; stakeholders and lessons
                                 </div>
                                 <div id="title2">
-                                    Interactive database of stakeholders with formal status that have or can have an
-                                    impact on the specific problems of the young population in the Cluj metropolitan
-                                    area, lessons learnt from the quantitative and qualitative studies as well as policy
-                                    recommendations
+                                    Interactive database of stakeholders with formal status that have or can have an impact on the specific problems of the young population in the Cluj metropolitan area, lessons learnt from the quantitative and qualitative studies as well as policy recommendations
                                 </div>
                             </div>
                         </td>
@@ -54,17 +47,17 @@
             <div id="main">
                 <div id="toolbar">
                     <span id="group"><span>Group by</span>
-                        <a href="javascript:;" id="all" class="button">All</a>
-                        <a href="javascript:;" id="priority" class="button active">Priority</a>
+                    <a href="javascript:;" id="all" class="button">All</a>
+                    <a href="javascript:;" id="priority" class="button active">Priority</a>
                     </span>
                     <span id="filter" style='margin-left: 30px;'><span>Filter by priority</span></span>
                     <span id="neighbors"><span>Show only neighbors on selection</span>
-                        <a href="javascript:;" id="on" class="button">On</a>
-                        <a href="javascript:;" id="off" class="button active">Off</a>
+                    <a href="javascript:;" id="on" class="button">On</a>
+                    <a href="javascript:;" id="off" class="button active">Off</a>
                     </span>
                     <span id="color"><span>Color by</span>
-                        <a href="javascript:;" id="all" class="button">All</a>
-                        <a href="javascript:;" id="priority" class="button active">Priority</a>
+                    <a href="javascript:;" id="all" class="button">All</a>
+                    <a href="javascript:;" id="priority" class="button active">Priority</a>
                     </span>
                 </div>
                 <div id="vis">
@@ -122,25 +115,23 @@
                             <th>
                                 <div id='lessons-legend'>
                                     <span>
-                                        <img src="img/type/pol.png">
-                                        <a href="javascript:;" class="button active"
-                                            id="toggle-lessons_Policy-recommendations">
-                                            Policy recommendations
-                                        </a>
-                                    </span>
+                                    <img src="img/type/pol.png">
+                                    <a href="javascript:;" class="button active" id="toggle-lessons_Policy-recommendations">
+                                        Policy recommendations
+                                    </a>
+                                </span>
                                     <span>
-                                        <img src="img/type/quan.png">
-                                        <a href="javascript:;" class="button active"
-                                            id="toggle-lessons_Quantitative-research">
-                                            Quantitative research
-                                        </a>
-                                    </span>
+                                    <img src="img/type/quan.png">
+                                    <a href="javascript:;" class="button active" id="toggle-lessons_Quantitative-research">
+                                        Quantitative research
+                                    </a>
+                                </span>
                                     <span>
-                                        <img src="img/type/qual.png">
-                                        <a href="javascript:;" class="button active" id="toggle-lessons_Qualitative-research">
-                                            Qualitative research
-                                        </a>
-                                    </span>
+                                    <img src="img/type/qual.png">
+                                    <a href="javascript:;" class="button active" id="toggle-lessons_Qualitative-research">
+                                        Qualitative research
+                                    </a>
+                                </span>
                                 </div>
                             </th>
                         </thead>
@@ -152,19 +143,9 @@
                 </div>
             </div>
         </div>
-        <button class="scrollToTopBtn">▲</button>
     </div>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <!-- <script src="//d3plus.org/js/d3plus-text.v0.10.full.min.js"></script> -->
-    <!-- <script src="//d3plus.org/js/d3plus-plot.v0.9.full.min.js"></script> -->
-    <!-- <script src="https://d3plus.org/js/d3plus.v2.0.0-alpha.30.full.min.js"></script> -->
-    <script src="src/d3plus2.js"></script>
-    <script src="src/tooltip.js"></script>
-    <script src="src/bubbles.js"></script>
+    <button class="scrollToTopBtn">▲</button>
     <script>
-
-        //scrolltotop
-
         var scrollToTopBtn = document.querySelector(".scrollToTopBtn")
         var rootElement = document.documentElement
 
@@ -189,55 +170,12 @@
         }
         scrollToTopBtn.addEventListener("click", scrollToTop)
         document.addEventListener("scroll", handleScroll)
-
-        //rescale
-
-        var width = 1000;
-        var height = 640;
-
-        var rescale = function () {
-
-            //scale content
-            var container = document.getElementsByClassName('container')[0]
-            var parent = document.body;
-            var scal = Math.min(
-                (parent.offsetWidth) /
-                width,
-                (parent.offsetHeight) /
-                height)
-
-            if (scal < 1) {
-
-                console.log('rendering...scaling', scal)
-                container.width = width
-                container.height = height
-
-                container.style.WebkitTransform = "scale(" + scal + ")";
-                container.style.OTransform = "scale(" + scal + ")";
-                container.style.MozTransform = "scale(" + scal + ")";
-                container.style.msTransform = "scale(" + scal + ")";
-                container.style.Transform = "scale(" + scal + ")";
-
-                container.style.WebkitTransformOrigin = "0% 0%";
-                container.style.OTransformOrigin = "0% 0%";
-                container.style.MozTransformOrigin = "0% 0%";
-                container.style.msTransformOrigin = "0% 0%";
-                container.style.TransformOrigin = "0% 0%";
-            }
-            else {
-                console.log('rendering...no scaling', scal)
-                container.width = parent.offsetWidth
-                container.height = parent.offsetHeight
-            }
-
-            // container.attr('src', 'frame.html')
-
-        };
-
-        //init view
-        rescale();
-
     </script>
+
+    <script src="//d3js.org/d3.v4.min.js"></script>
+    <script src="//d3plus.org/js/d3plus-text.v0.10.full.min.js"></script>
+    <script src="src/tooltip.js"></script>
+    <script src="src/bubbles.js"></script>
 
 </body>
 

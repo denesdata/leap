@@ -31,50 +31,23 @@ function bubbleChart() {
 
     // Locations to move bubbles towards, depending
     // on which view mode is selected.
-    var center = {
-        x: width / 2,
-        y: height / 2
-    };
+    var center = { x: width / 2, y: height / 2 };
 
     var groupCenters = {
         'priority': {
-            'Health': {
-                x: 2 * width / 7,
-                y: height / 2
-            },
-            'Learning': {
-                x: 3 * width / 7,
-                y: height / 2
-            },
-            'Agency': {
-                x: 4 * width / 7,
-                y: height / 2
-            },
-            'Enabling environment': {
-                x: 5 * width / 7,
-                y: height / 2
-            }
+            'Health': { x: 2 * width / 7, y: height / 2 },
+            'Learning': { x: 3 * width / 7, y: height / 2 },
+            'Agency': { x: 4 * width / 7, y: height / 2 },
+            'Enabling environment': { x: 5 * width / 7, y: height / 2 }
         }
     };
 
     var titleCenters = {
         'priority': {
-            'Health': {
-                x: 1.4 * width / 8,
-                y: height / 2
-            },
-            'Learning': {
-                x: 2.9 * width / 8,
-                y: height / 2
-            },
-            'Agency': {
-                x: 4.6 * width / 8,
-                y: height / 2
-            },
-            'Enabling environment': {
-                x: 6.6 * width / 8,
-                y: height / 2
-            }
+            'Health': { x: 1.4 * width / 8, y: height / 2 },
+            'Learning': { x: 2.9 * width / 8, y: height / 2 },
+            'Agency': { x: 4.6 * width / 8, y: height / 2 },
+            'Enabling environment': { x: 6.6 * width / 8, y: height / 2 }
         }
     };
 
@@ -156,9 +129,7 @@ function bubbleChart() {
 
         // Use the max Importance in the data as the max in the scale's domain
         // note we have to ensure the Importance is a number.
-        var maxAmount = d3.max(rawData, function (d) {
-            return +d[radiusKey];
-        });
+        var maxAmount = d3.max(rawData, function(d) { return +d[radiusKey]; });
 
         // Sizes bubbles based on area.
         // @v4: new flattened scale names.
@@ -170,7 +141,7 @@ function bubbleChart() {
         // Use map() to convert raw data into node data.
         // Checkout http://learnjsdata.com/ for more on
         // working with data.
-        var myNodes = rawData.map(function (d) {
+        var myNodes = rawData.map(function(d) {
             nodeDict[d.Keyword] = d.Priority;
             return {
                 id: d.Keyword,
@@ -189,9 +160,7 @@ function bubbleChart() {
         });
 
         // sort them to prevent occlusion of smaller nodes.
-        myNodes.sort(function (a, b) {
-            return b.value - a.value;
-        });
+        myNodes.sort(function(a, b) { return b.value - a.value; });
 
         return myNodes;
     }
@@ -215,11 +184,10 @@ function bubbleChart() {
         edges = rawData.edges;
         table = rawData.table;
         lessons = rawData.lessons;
-        graphs = rawData.graphs;
 
-        // console.log(rawData)
-        // Create a SVG element inside the provided selector
-        // with desired size.
+        console.log(rawData)
+            // Create a SVG element inside the provided selector
+            // with desired size.
         svg = d3.select(selector)
             .append('svg')
             .attr('width', width)
@@ -227,9 +195,7 @@ function bubbleChart() {
 
         // Bind nodes data to what will become DOM elements to represent them.
         bubbles = svg.selectAll('.bubble')
-            .data(nodes, function (d) {
-                return d.id;
-            });
+            .data(nodes, function(d) { return d.id; });
 
         // Create new circle elements each with class `bubble`.
         // There will be one circle.bubble for each object in the nodes array.
@@ -239,7 +205,7 @@ function bubbleChart() {
         var bubblesInit = bubbles.enter().append('g')
             .classed('bubble', true)
             .style('cursor', 'pointer')
-            .on('contextmenu', function (d, i) {
+            .on('contextmenu', function(d, i) {
                 d3.event.preventDefault();
                 soloDetail(d);
             })
@@ -256,30 +222,17 @@ function bubbleChart() {
         if (htmlLabelsOn)
             var bubbleLabels = svg.selectAll('.bubble')
                 .append('foreignObject')
-                .attr('height', function (d) {
-                    return textOuterRadius * 2 * d.radius;
-                })
-                .attr('width', function (d) {
-                    return textOuterRadius * 2 * d.radius;
-                })
-                .attr('x', function (d) {
-                    return -textOuterRadius * d.radius;
-                })
-                .attr('y', function (d) {
-                    return -textOuterRadius * d.radius;
-                })
+                .attr('height', function(d) { return textOuterRadius * 2 * d.radius; })
+                .attr('width', function(d) { return textOuterRadius * 2 * d.radius; })
+                .attr('x', function(d) { return -textOuterRadius * d.radius; })
+                .attr('y', function(d) { return -textOuterRadius * d.radius; })
                 .classed('bubbleLabel', true)
-                .html(function (d) {
-                    return '<div class="bubbleLabelText" xmlns="http://www.w3.org/1999/xhtml">' + d.id + '</div>'
-                })
+                .html(function(d) { return '<div class="bubbleLabelText" xmlns="http://www.w3.org/1999/xhtml">' + d.id + '</div>' })
 
         if (d3LabelsOn)
-            svg.selectAll('.bubble').each(function (d) {
+            svg.selectAll('.bubble').each(function(d) {
                 var d3text = new d3plus.TextBox()
-                    .data([{
-                        'text': d.id,
-                        'parent': d
-                    }])
+                    .data([{ 'text': d.id, 'parent': d }])
                     .select(this)
                     .fontResize(true)
                     .height(0)
@@ -289,7 +242,7 @@ function bubbleChart() {
                     .verticalAlign('middle')
                     .textAnchor('middle')
                     .fontMin(minFontSize)
-                // .render()
+                    // .render()
                 d3bubbleLabels.push(d3text);
             })
 
@@ -302,28 +255,18 @@ function bubbleChart() {
         // Fancy transition to make bubbles appear, ending with the
         // correct radius
         bubbleCircles.transition().duration(2000)
-            .attr('r', function (d) {
-                return d.radius;
-            });
+            .attr('r', function(d) { return d.radius; });
         if (htmlLabelsOn) bubbleLabels.transition().duration(2000)
-            .attr('font-size', function (d) {
+            .attr('font-size', function(d) {
                 return d.radius < minTextRadius ? 0 : textRadius * d.radius;
             });
-        if (d3LabelsOn) d3bubbleLabels.forEach(function (e) {
+        if (d3LabelsOn) d3bubbleLabels.forEach(function(e) {
             d = e._data[0].parent;
-            e.height(function (f) {
-                    return textOuterRadius * 2.1 * d.radius;
-                })
-                .width(function (f) {
-                    return textOuterRadius * 2 * d.radius;
-                })
-                .x(function (f) {
-                    return -textOuterRadius * d.radius;
-                })
-                .y(function (f) {
-                    return -textOuterRadius * d.radius;
-                })
-                .fontSize(function (f) {
+            e.height(function(f) { return textOuterRadius * 2.1 * d.radius; })
+                .width(function(f) { return textOuterRadius * 2 * d.radius; })
+                .x(function(f) { return -textOuterRadius * d.radius; })
+                .y(function(f) { return -textOuterRadius * d.radius; })
+                .fontSize(function(f) {
                     return d.radius < minTextRadius ? 0 : textRadius * d.radius;
                 })
                 .duration(500)
@@ -364,7 +307,7 @@ function bubbleChart() {
         stakeholderTable.append('td')
             .classed('stakeholder', true)
             .classed('stakeholder-hidden', true)
-            .html(function (d) {
+            .html(function(d) {
                 var keywords = '';
                 for (k of d.keywords) {
                     keywords = keywords + '<span class="keyword" style="background-color:' +
@@ -382,17 +325,17 @@ function bubbleChart() {
                     '<div class="stakeholder-keywords">' + keywords + '</div></div>'
             })
         d3.selectAll('.stakeholder-title')
-            .on('click', function (d) {
+            .on('click', function(d) {
                 d3.select(this.parentNode).classed('stakeholder-hidden', (d3.select(this.parentNode).classed('stakeholder-hidden') ? false : true));
                 d3.select(this.parentNode).select('.stakeholder-icon').text(d3.select(this.parentNode).classed('stakeholder-hidden') ? '►' : '▼');
             })
         d3.select('#stakeholder-head')
-            .on('click', function (d) {
+            .on('click', function(d) {
                 d3.select('#stakeholder-table').classed('stakeholder-head-hidden', (d3.select('#stakeholder-table').classed('stakeholder-head-hidden') ? false : true));
                 d3.select('.stakeholder-head-icon').text(d3.select('#stakeholder-table').classed('stakeholder-head-hidden') ? '►' : '▼');
             })
         d3.select('#tabs-head').selectAll('.button')
-            .on('click', function (d) {
+            .on('click', function(d) {
                 d3.select('#tabs-head').selectAll('.button').classed('active', false)
                 d3.select(this).classed('active', true)
                 d3.select('#stakeholder-all')
@@ -402,122 +345,16 @@ function bubbleChart() {
                     .style('max-height', d3.select('#lessons-tab').classed('active') ? '99999px' : '0px')
                     .style('opacity', d3.select('#lessons-tab').classed('active') ? 1 : 0)
             })
-        setTimeout(function () {
+        setTimeout(function() {
             // d3.selectAll('.tableEntry')
             //     .classed('tableEntry-hidden', false)
             filterTable();
         }, 4000)
     }
 
-    function createGraph(i, s) {
-        i = String(i);
-
-        function colorizer(d) {
-            if (d == 'children') return d3.rgb(255, 255, 255, 0.6)
-            else if (d == 'youth') return d3.rgb(255, 255, 255, 0.8)
-            else if (d == 'parents') return d3.rgb(255, 255, 255, 1)
-            else if (d == 'teachers') return d3.rgb(255, 255, 255, 0.4)
-            else if (d == 'sometimes') return d3.rgb(255, 255, 255, 0.6)
-            else if (d == 'often') return d3.rgb(255, 255, 255, 1)
-            else if (d == 'always') return d3.rgb(255, 255, 255, 1)
-            else if (d == 'never') return d3.rgb(255, 255, 255, 0.2)
-            else if (d == 'almost everyday') return d3.rgb(255, 255, 255, 1)
-            else if (d == '7-14 days') return d3.rgb(255, 255, 255, 0.8)
-            else if (d == '4-6 days') return d3.rgb(255, 255, 255, 0.6)
-            else if (d == '1-3 days') return d3.rgb(255, 255, 255, 0.4)
-            else if (d == 'not one day') return d3.rgb(255, 255, 255, 0.2)
-            else if (d == 'almost everyday') return d3.rgb(255, 255, 255, 1)
-            else if (d == 'at least once a week') return d3.rgb(255, 255, 255, 0.8)
-            else if (d == 'several times a month') return d3.rgb(255, 255, 255, 0.6)
-            else if (d == 'once a month or less') return d3.rgb(255, 255, 255, 0.4)
-            else if (d == 'mostly school') return d3.rgb(255, 255, 255, 0.2)
-            else if (d == 'mostly parents') return d3.rgb(255, 255, 255, 1)
-            else if (d == 'more parents than school') return d3.rgb(255, 255, 255, 0.8)
-            else if (d == 'both school and parents ') return d3.rgb(255, 255, 255, 0.6)
-            else if (d == 'more school than parents') return d3.rgb(255, 255, 255, 0.4)
-            else if (d == 'sex') return d3.rgb(255, 255, 255, 1)
-            else if (d == 'talked about') return d3.rgb(255, 255, 255, 1)
-            else return d3.rgb(255, 255, 255, 0.5)
-        }
-
-        if (Object.keys(graphs).indexOf(i) > -1) {
-            size = (new Set(graphs[i].data.map(value => value.option))).size *
-                (new Set(graphs[i].data.map(value => value.id))).size + 4;
-            var barHeight = 9;
-            size = size * barHeight;
-            size = Math.max(300, Math.min(size, 600));
-
-            new d3plus.BarChart()
-                .select(s.node())
-                .config({
-                    data: graphs[i].data,
-                    title: ((graphs[i].title == 'None') ? false : graphs[i].title),
-                    titlePadding: false,
-                    titleConfig: {
-                        fontSize: 14,
-                        padding: '00 0 20 0'
-                    },
-                    // barPadding: 1,
-                    // groupPadding: 5,
-                    x: "value",
-                    y: "option",
-                    discrete: 'y',
-                    loadingMessage: false,
-                    height: size,
-                    color: function (d) {
-                        return colorizer(d.id)
-                    },
-                    yConfig: {
-                        minSize: 60,
-                        maxSize: 110,
-                        labelOffset: false,
-                        barConfig: {
-                            stroke: 'white',
-                        },
-                        gridConfig: {
-                            stroke: "transparent"
-                        },
-                        shapeConfig: {
-                            stroke: "white",
-                        }
-                    },
-                    xConfig: {
-                        barConfig: {
-                            stroke: 'white',
-                        },
-                        gridConfig: {
-                            stroke: "transparent"
-                        },
-                        shapeConfig: {
-                            stroke: "white"
-                        }
-                    },
-                    tooltipConfig: {
-                        title: function (d) {
-                            return d["id"];
-                        },
-                        tbody: [
-                            [function (d) {
-                                return d["option"] + ': '
-                            }, function (d) {
-                                return d["value"] + " %"
-                            }]
-                        ]
-                    },
-                    legend: false,
-                    detectVisible: false
-                })
-                .render();
-        }
-    }
-
     function createLessons() {
 
-        var typ = {
-            'Qualitative research': 'qual',
-            'Quantitative research': 'quan',
-            'Policy recommendations': 'pol'
-        }
+        var typ = { 'Qualitative research': 'qual', 'Quantitative research': 'quan', 'Policy recommendations': 'pol' }
         var lessonsTable = d3.select('#lessons-table')
             .selectAll('.lessonEntry')
             .data(lessons)
@@ -525,19 +362,17 @@ function bubbleChart() {
             .append('div')
             .classed('lessonEntry', true)
             .classed('lessonEntry-hidden', true)
-            .style('border-color', function (d) {
-                return d3.rgb(fillColor(d.Priority)).darker()
-            })
-            .style('background', function (d) {
+            .style('border-color', function(d) { return d3.rgb(fillColor(d.Priority)).darker() })
+            .style('background', function(d) {
                 return d3.rgb(fillColor(d.Priority)).darker() //'linear-gradient(to bottom right, ' +
-                //d3.rgb(fillColor(d.Priority)).darker() + ', ' +
-                //d3.rgb(fillColor(d.Priority)) + ')';
+                    //d3.rgb(fillColor(d.Priority)).darker() + ', ' +
+                    //d3.rgb(fillColor(d.Priority)) + ')';
             })
 
         lessonsTable.append('div')
             .append('img')
             .classed('lesson-img', true)
-            .attr('src', function (d) {
+            .attr('src', function(d) {
                 return 'img/type/' +
                     // replaceSpaces(d.Priority) + '_' +
                     typ[d.Type] + '.png'
@@ -546,7 +381,7 @@ function bubbleChart() {
             .classed('matches', true)
         lessonsTable.append('div')
             .classed('lesson-keywords', true)
-            .html(function (d) {
+            .html(function(d) {
                 var keywords = '';
                 for (k of Object.keys(d.keywords)) {
                     keywords = keywords + '<span class="keyword" style="background-color:' +
@@ -556,7 +391,7 @@ function bubbleChart() {
             })
         lessonsTable.append('div')
             .classed('lesson', true)
-            .html(function (d) {
+            .html(function(d) {
                 return '<div class="lesson-body">' +
                     // '<tr><td><b>Priority</b></td><td>' + d.Priority + '</td></tr>' +
                     // '<tr><td><b>Type</b></td><td>' + d.Type + '</td></tr>' +
@@ -569,28 +404,20 @@ function bubbleChart() {
                         '</td></tr></table></div>' : '') +
                     ((d.Type == 'Quantitative research') ? '<div class="lesson" style="margin-top:30px;">' + d.Quote + '</div>' : '') +
                     ((d.Type == 'Quantitative research') ?
-                        // ((d.Graph != 'None') ? '<div><img src="quant/' + d.Graph + '.png" style="width:245px;margin-top:10px;"></div>' : '') : '') +
-                        ((d.Graph != 'None') ? '' : '') : '') +
-                    '</div>' +
-                    ((d.Graph != 'None') ? '<div class="graph" id="graph' + d.Graph + '"></div>' : '')
-            })
-            .classed('processed', function (d) {
-                if (d.Graph != 'None') {
-                    createGraph(d.Graph, d3.select(this).select('.graph'))
-                    // createGraph(d.Graph, d3.select(this))
-                } else return true;
+                        ((d.Graph != 'None') ? '<div><img src="quant/' + d.Graph + '.png" style="width:245px;margin-top:10px;"></div>' : '') : '') +
+                    '</div>'
             })
         d3.select('#lessons-head th')
-            .on('click', function (d) {
+            .on('click', function(d) {
                 d3.select('#lessons-table').classed('lessons-head-hidden', (d3.select('#lessons-table').classed('lessons-head-hidden') ? false : true));
                 d3.select('.lessons-head-icon').text(d3.select('#lessons-table').classed('lessons-head-hidden') ? '►' : '▼');
             })
         d3.selectAll('#lessons-legend .button')
-            .on('click', function (d) {
+            .on('click', function(d) {
                 d3.select(this).classed('active', (d3.select(this).classed('active') ? false : true));
                 filterLessons();
             })
-        setTimeout(function () {
+        setTimeout(function() {
             // d3.selectAll('.lessonEntry')
             //     .classed('lessonEntry-hidden', false)
             filterLessons();
@@ -606,11 +433,9 @@ function bubbleChart() {
      */
     function ticked() {
         bubbles
-            .attr('transform', function (d) {
-                return 'translate(' + d.x + ',' + d.y + ')';
-            })
-        // .attr('cx', function(d) { return d.x; })
-        // .attr('cy', function(d) { return d.y; });
+            .attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')'; })
+            // .attr('cx', function(d) { return d.x; })
+            // .attr('cy', function(d) { return d.y; });
     }
 
     /*
@@ -655,14 +480,14 @@ function bubbleChart() {
 
             // @v4 Reset the 'x' force to draw the bubbles to their year centers
             simulation.force('x', d3.forceX().strength(xForceStrength)
-                .x(function (d) {
+                .x(function(d) {
                     return d.type == 'node' ?
                         nodePos(d, groupBy).x :
                         d.xPos
                 }));
             // @v4 Reset the 'y' force to draw the bubbles to their year centers
             simulation.force('y', d3.forceY().strength(yForceStrength)
-                .y(function (d) {
+                .y(function(d) {
                     return d.type == 'node' ?
                         nodePos(d, groupBy).y :
                         d.yPos
@@ -698,40 +523,28 @@ function bubbleChart() {
 
         groups.enter().append('text')
             .attr('class', 'title')
-            .attr('id', function (d) {
-                return 'title_' + replaceSpaces(d)
-            })
+            .attr('id', function(d) { return 'title_' + replaceSpaces(d) })
             .attr('x', width / 2)
             .attr('y', height / 2)
             .style('opacity', 0)
             .transition()
-            .attr('x', function (d) {
-                return groupTitle(groupBy, d).x;
-            })
-            .attr('y', function (d) {
-                return groupTitle(groupBy, d).y;
-            })
-            .style('opacity', function (d) {
+            .attr('x', function(d) { return groupTitle(groupBy, d).x; })
+            .attr('y', function(d) { return groupTitle(groupBy, d).y; })
+            .style('opacity', function(d) {
                 return d3.select('#toggle_' + replaceSpaces(d)).classed('active') ? 1 : 0;
             })
             .attr('text-anchor', 'middle')
-            .style('fill', function (d) {
-                return d3.rgb(fillColor(d)).brighter()
-            })
-            .style('stroke', function (d) {
-                return d3.rgb(fillColor(d))
-            })
+            .style('fill', function(d) { return d3.rgb(fillColor(d)).brighter() })
+            .style('stroke', function(d) { return d3.rgb(fillColor(d)) })
             .style('stroke-wdith', 1)
-            .text(function (d) {
-                return d;
-            })
+            .text(function(d) { return d; })
 
     }
 
     function updateGroupTitles(groupBy) {
 
         d3.selectAll('.title').transition()
-            .style('opacity', function (d) {
+            .style('opacity', function(d) {
                 return d3.select('#toggle_' + replaceSpaces(d)).classed('active') ? 1 : 0;
             })
 
@@ -742,18 +555,14 @@ function bubbleChart() {
         d3.select(selector)
             .selectAll('.toggle')
             .data(filterData).enter().append('a')
-            .attr('id', function (d) {
-                return 'toggle_' + replaceSpaces(d)
-            })
-            .attr('class', 'button toggle active').text(function (d) {
-                return d;
-            })
-            .style('background-color', function (d) {
+            .attr('id', function(d) { return 'toggle_' + replaceSpaces(d) })
+            .attr('class', 'button toggle active').text(function(d) { return d; })
+            .style('background-color', function(d) {
                 return fillColor(d);
             })
-            .on('click', function (d) {
+            .on('click', function(d) {
                 d3.select(this).classed('active', d3.select(this).classed('active') ? false : true)
-                    .style('background-color', function (d) {
+                    .style('background-color', function(d) {
                         return d3.select(this).classed('active') ? fillColor(d) : 'white';
                     })
                 filterBubbles(d3.selectAll('.toggle.active').data(), groupBy);
@@ -766,26 +575,26 @@ function bubbleChart() {
     createFilter('priority', '#filter')
 
     function filterBubbles(array, filterBy) {
-        d3.selectAll('.bubble').attr('id', function (d) {
-            d.hidden[filterBy] = (array.indexOf(d[filterBy]) < 0) ? true : false
-            d.radius = Object.values(d.hidden).every(v => v === false) ?
-                d.solo ?
-                d.soloRadius :
-                d.grow ?
-                d.growRadius :
-                d.originalRadius :
-                d.hiddenRadius
-        })
-        //need to update group titles
+        d3.selectAll('.bubble').attr('id', function(d) {
+                d.hidden[filterBy] = (array.indexOf(d[filterBy]) < 0) ? true : false
+                d.radius = Object.values(d.hidden).every(v => v === false) ?
+                    d.solo ?
+                    d.soloRadius :
+                    d.grow ?
+                    d.growRadius :
+                    d.originalRadius :
+                    d.hiddenRadius
+            })
+            //need to update group titles
         if (groupBy === filterBy) {
             updateGroupTitles(array, filterBy);
         }
     }
 
     function colorBubbles(colorBy, force) {
-        if (typeof (force) === 'undefined') force = false;
+        if (typeof(force) === 'undefined') force = false;
 
-        d3.selectAll('.bubble').attr('id', function (d) {
+        d3.selectAll('.bubble').attr('id', function(d) {
             d.fill = d.solo ?
                 d3.rgb(fillColor(d[colorBy])) :
                 d.grow ?
@@ -814,20 +623,12 @@ function bubbleChart() {
                 "none"
             if (force) {
                 d3.selectAll('.bubble').select('.bubbleCircle')
-                    .attr('fill', function (d) {
-                        return d.fill
-                    })
-                    .attr('stroke', function (d) {
-                        return d.stroke
-                    })
-                    .attr('stroke-dasharray', function (d) {
-                        return d.strokeDash
-                    })
+                    .attr('fill', function(d) { return d.fill })
+                    .attr('stroke', function(d) { return d.stroke })
+                    .attr('stroke-dasharray', function(d) { return d.strokeDash })
                 if (htmlLabelsOn) d3.selectAll('.bubbleLabel')
-                    .style('color', function (d) {
-                        return d.textColor
-                    })
-                if (d3LabelsOn) d3bubbleLabels.forEach(function (e) {
+                    .style('color', function(d) { return d.textColor })
+                if (d3LabelsOn) d3bubbleLabels.forEach(function(e) {
                     d = e._data[0].parent;
                     e.fontColor(d.textColor)
                 })
@@ -836,53 +637,33 @@ function bubbleChart() {
     }
 
     function redrawBubbles(v) {
-        if (typeof (v) === 'undefined') v = 0.5;
+        if (typeof(v) === 'undefined') v = 0.5;
 
         colorBubbles(colorBy)
 
-        d3.selectAll('.bubble').select('.bubbleCircle').transition().attr('r', function (d) {
+        d3.selectAll('.bubble').select('.bubbleCircle').transition().attr('r', function(d) {
                 return d.radius + 'px';
             })
-            .attr('fill', function (d) {
-                return d.fill
-            })
-            .attr('stroke', function (d) {
-                return d.stroke
-            })
-            .attr('stroke-dasharray', function (d) {
-                return d.strokeDash
-            })
+            .attr('fill', function(d) { return d.fill })
+            .attr('stroke', function(d) { return d.stroke })
+            .attr('stroke-dasharray', function(d) { return d.strokeDash })
 
         if (htmlLabelsOn) d3.selectAll('.bubbleLabel').transition()
-            .attr('height', function (d) {
-                return textOuterRadius * 2 * d.radius;
-            })
-            .attr('width', function (d) {
-                return textOuterRadius * 2 * d.radius;
-            })
-            .attr('x', function (d) {
-                return -textOuterRadius * d.radius;
-            })
-            .attr('y', function (d) {
-                return -textOuterRadius * d.radius;
-            })
-            .attr('font-size', function (d) {
+            .attr('height', function(d) { return textOuterRadius * 2 * d.radius; })
+            .attr('width', function(d) { return textOuterRadius * 2 * d.radius; })
+            .attr('x', function(d) { return -textOuterRadius * d.radius; })
+            .attr('y', function(d) { return -textOuterRadius * d.radius; })
+            .attr('font-size', function(d) {
                 return d.radius < minTextRadius ? 0 : textRadius * d.radius;
             })
-            .style('color', function (d) {
-                return d.textColor
-            })
+            .style('color', function(d) { return d.textColor })
 
-        if (d3LabelsOn) d3bubbleLabels.forEach(function (e) {
+        if (d3LabelsOn) d3bubbleLabels.forEach(function(e) {
             d = e._data[0].parent;
-            e.height(function (f) {
-                    return textOuterRadius * 2.1 * d.radius;
-                })
-                .width(function (f) {
-                    return textOuterRadius * 2 * d.radius;
-                })
+            e.height(function(f) { return textOuterRadius * 2.1 * d.radius; })
+                .width(function(f) { return textOuterRadius * 2 * d.radius; })
                 .fontColor(d.textColor)
-                .fontSize(function (f) {
+                .fontSize(function(f) {
                     return d.radius < minTextRadius ? 0 : textRadius * d.radius;
                 })
                 .duration(400).delay(0).render();
@@ -890,9 +671,9 @@ function bubbleChart() {
 
         simulation.nodes(nodes);
         simulation.alpha(v).restart();
-        setTimeout(function () {
+        setTimeout(function() {
             filterTable();
-            setTimeout(function () {
+            setTimeout(function() {
                 filterLessons();
             }, 300)
         }, 400)
@@ -903,11 +684,11 @@ function bubbleChart() {
         d3.selectAll('.tableEntry')
             .classed('tableEntry-hidden', true)
 
-        var onNodes = d3.selectAll('.bubble').filter(function (d) {
+        var onNodes = d3.selectAll('.bubble').filter(function(d) {
             return (((d.grow) || (d.solo)) && (Object.values(d.hidden).every(v => v === false)));
         }).data();
         var globalMatch = '';
-        onNodes.forEach(function (node) {
+        onNodes.forEach(function(node) {
             globalMatch = globalMatch + '<span class="keyword" style="background-color:' +
                 d3.rgb(fillColor(node.priority)) + ';">' + node.id.replace(' ', '&nbsp;') + '</span> '
         })
@@ -916,17 +697,17 @@ function bubbleChart() {
             .style('max-height', (onNodes.length > 0) ? '200px' : '0px')
             .style('opacity', (onNodes.length > 0) ? 1 : 0)
         d3.select('#selected-head').html(globalMatch)
-        // setTimeout(function() {
+            // setTimeout(function() {
         d3.selectAll('.tableEntry')
-            .classed('tableEntry-hidden', function (stakeholder) {
+            .classed('tableEntry-hidden', function(stakeholder) {
                 var hide = true
                 var matchText = '';
                 if (onNodes.length == 0) {
-                    onNodes = d3.selectAll('.bubble').filter(function (d) {
+                    onNodes = d3.selectAll('.bubble').filter(function(d) {
                         return (Object.values(d.hidden).every(v => v === false));
                     }).data();
                 }
-                onNodes.forEach(function (node) {
+                onNodes.forEach(function(node) {
                     if (stakeholder.keywords.indexOf(node.id) > -1) {
                         hide = false
                         matchText = matchText + '<span class="keyword" style="background-color:' +
@@ -937,20 +718,20 @@ function bubbleChart() {
                 d3.select(this).select('.matches').html(matchText)
                 return hide;
             })
-        // }, 200)
+            // }, 200)
         d3.select('#stakeholder-table').selectAll('.keyword')
-            .on('click', function (d) {
+            .on('click', function(d) {
                 var keyword = this.innerHTML.replace('&nbsp;', ' ');
                 // console.log(keyword)
-                d3.selectAll('.bubble').filter(function (d) {
+                d3.selectAll('.bubble').filter(function(d) {
                     return (d.id == keyword)
                 }).data().forEach(growDetail)
             })
         d3.select('#selected-head').selectAll('.keyword')
-            .on('click', function (d) {
+            .on('click', function(d) {
                 var keyword = this.innerHTML.replace('&nbsp;', ' ');
                 // console.log(keyword)
-                d3.selectAll('.bubble').filter(function (d) {
+                d3.selectAll('.bubble').filter(function(d) {
                     return (d.id == keyword)
                 }).data().forEach(growDetail)
             })
@@ -961,19 +742,19 @@ function bubbleChart() {
         d3.selectAll('.lessonEntry')
             .classed('lessonEntry-hidden', true)
 
-        var onNodes = d3.selectAll('.bubble').filter(function (d) {
+        var onNodes = d3.selectAll('.bubble').filter(function(d) {
             return (((d.grow) || (d.solo)) && (Object.values(d.hidden).every(v => v === false)));
         }).data();
         d3.selectAll('.lessonEntry')
-            .classed('lessonEntry-hidden', function (lesson) {
+            .classed('lessonEntry-hidden', function(lesson) {
                 var hide = true
                 var matchText = ''
                 if (onNodes.length == 0) {
-                    onNodes = d3.selectAll('.bubble').filter(function (d) {
+                    onNodes = d3.selectAll('.bubble').filter(function(d) {
                         return (Object.values(d.hidden).every(v => v === false));
                     }).data();
                 }
-                onNodes.forEach(function (node) {
+                onNodes.forEach(function(node) {
                     if (Object.keys(lesson.keywords).indexOf(node.id) > -1) {
                         if (d3.select('#toggle_' + replaceSpaces(lesson.Priority)).classed('active')) {
                             if (d3.select('#toggle-lessons_' + replaceSpaces(lesson.Type)).classed('active')) {
@@ -988,10 +769,10 @@ function bubbleChart() {
                 return hide;
             })
         d3.select('#lessons-table').selectAll('.keyword')
-            .on('click', function (d) {
+            .on('click', function(d) {
                 var keyword = this.innerHTML.replace('&nbsp;', ' ');
                 // console.log(keyword)
-                d3.selectAll('.bubble').filter(function (d) {
+                d3.selectAll('.bubble').filter(function(d) {
                     return (d.id == keyword)
                 }).data().forEach(growDetail)
             })
@@ -1019,7 +800,7 @@ function bubbleChart() {
     }
 
     function removeSoloFromAll() {
-        d3.selectAll('.bubble').attr('id', function (d) {
+        d3.selectAll('.bubble').attr('id', function(d) {
             d.hidden['id'] = false;
             d.solo = false;
         })
@@ -1043,9 +824,7 @@ function bubbleChart() {
      */
     function showDetail(d) {
         // change outline to indicate hover state.
-        d3.select(this).select('.bubbleCircle').attr('stroke-width', function (d) {
-            return d.solo ? 4 : 4
-        });
+        d3.select(this).select('.bubbleCircle').attr('stroke-width', function(d) { return d.solo ? 4 : 4 });
 
         var content = '<span class="name"></span><span class="value">' +
             d.id +
@@ -1059,9 +838,7 @@ function bubbleChart() {
      */
     function hideDetail(d) {
         // reset outline
-        d3.select(this).select('.bubbleCircle').attr('stroke-width', function (d) {
-            return d.solo ? 2 : 2
-        });
+        d3.select(this).select('.bubbleCircle').attr('stroke-width', function(d) { return d.solo ? 2 : 2 });
 
         tooltip.hideTooltip();
     }
@@ -1073,7 +850,7 @@ function bubbleChart() {
      *
      * displayName is expected to be a string and either 'year' or 'all'.
      */
-    chart.toggleDisplay = function (displayType, displayName) {
+    chart.toggleDisplay = function(displayType, displayName) {
         if (displayType === 'group') {
             groupBubbles(displayName);
         } else if (displayType === 'color') {
@@ -1110,7 +887,7 @@ function display(error, data) {
 function setupButtons() {
     d3.select('#toolbar')
         .selectAll('#group .button')
-        .on('click', function () {
+        .on('click', function() {
             // Remove active class from all buttons
             d3.selectAll('#group .button').classed('active', false);
             // Find the button just clicked
@@ -1126,7 +903,7 @@ function setupButtons() {
 
     d3.select('#toolbar')
         .selectAll('#color .button')
-        .on('click', function () {
+        .on('click', function() {
             // Remove active class from all buttons
             d3.selectAll('#color .button').classed('active', false);
             // Find the button just clicked
@@ -1142,7 +919,7 @@ function setupButtons() {
 
     d3.select('#toolbar')
         .selectAll('#neighbors .button')
-        .on('click', function () {
+        .on('click', function() {
             // Remove active class from all buttons
             d3.selectAll('#neighbors .button').classed('active', false);
             // Find the button just clicked
@@ -1172,7 +949,7 @@ function replaceSpaces(s) {
 }
 
 function wrap(text, width) {
-    text.each(function () {
+    text.each(function() {
         var text = d3.select(this),
             words = text.text().split(/\s+/).reverse(),
             word,
