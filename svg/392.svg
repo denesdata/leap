@@ -1,0 +1,237 @@
+<svg class="d3plus-viz" aria-hidden="true" aria-labelledby="a2fd6a90-4168-7885-55a6-22099cf327ad-title a2fd6a90-4168-7885-55a6-22099cf327ad-desc" role="img"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="250.656px" height="180px" style="display: inline; width: 250.656px; height: 180px; cursor: auto;">
+    <title id="a2fd6a90-4168-7885-55a6-22099cf327ad-title"></title>
+    <desc id="a2fd6a90-4168-7885-55a6-22099cf327ad-desc"></desc>
+    <g opacity="0" class="d3plus-plot-test">
+        <g id="d3plus-Axis-9d0f5d0c-72e7-167e-ec2f-647844d77322">
+            <g class="grid"></g>
+            <g class="ticks">
+                <g class="d3plus-Line-group">
+                    <g class="d3plus-Line-shape" opacity="1">
+                        <g class="d3plus-Shape d3plus-Line d3plus-id-Sleeping-problems" transform="translate(104.5, 30.5)" aria-label="" role="presentation" opacity="1" shape-rendering="geometricPrecision" pointer-events="visiblePainted">
+                            <path transform="translate(-104.5, -30.5)" d="M107,30.5L102,30.5" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" vector-effect="non-scaling-stroke" stroke-dashoffset="0.41783099102744303"></path>
+                        </g>
+                        <g class="d3plus-Shape d3plus-Line d3plus-id-Spent-a-night-in-a-hospital-in-life" transform="translate(104.5, 91.5)" aria-label="" role="presentation" opacity="1" shape-rendering="geometricPrecision" pointer-events="visiblePainted">
+                            <path transform="translate(-104.5, -91.5)" d="M107,91.5L102,91.5" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" vector-effect="non-scaling-stroke" stroke-dashoffset="0.41783099102744303"></path>
+                        </g>
+                    </g>
+                    <g class="d3plus-Line-image" opacity="1"></g>
+                    <g class="d3plus-Line-text" opacity="1">
+                        <g class="d3plus-textBox" id="d3plus-textBox-Sleeping-problems_0" transform="translate(0, 21.860000610351562)" style="pointer-events: none;">
+                            <text dominant-baseline="alphabetic" opacity="1" aria-hidden="false" dir="ltr" fill="#fff" stroke="transparent" stroke-width="0" text-anchor="end" font-family="Roboto" font-size="12px" font-weight="400" x="97px" y="12px" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;">Sleeping problems</text>
+                        </g>
+                        <g class="d3plus-textBox" id="d3plus-textBox-Spent-a-night-in-a-hospital-in-life_0" transform="translate(0, 75.66000366210938)" style="pointer-events: none;">
+                            <text dominant-baseline="alphabetic" opacity="1" aria-hidden="false" dir="ltr" fill="#fff" stroke="transparent" stroke-width="0" text-anchor="end" font-family="Roboto" font-size="12px" font-weight="400" x="97px" y="12px" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;">Spent a night in a</text>
+                            <text dominant-baseline="alphabetic" opacity="1" aria-hidden="false" dir="ltr" fill="#fff" stroke="transparent" stroke-width="0" text-anchor="end" font-family="Roboto" font-size="12px" font-weight="400" x="97px" y="26.4px" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;">hospital in life</text>
+                        </g>
+                    </g>
+                    <g class="d3plus-Line-hover"></g>
+                    <g class="d3plus-Line-active"></g>
+                </g>
+            </g>
+            <line class="bar" opacity="1" stroke="white" stroke-width="1" y1="0" y2="122" x1="107" x2="107"></line>
+            <g class="d3plus-Axis-title"></g>
+        </g>
+        <g id="d3plus-Axis-7edc350e-1aea-7f84-63bd-9873acaf0656">
+            <g class="grid"></g>
+            <g class="ticks">
+                <g class="d3plus-Line-group">
+                    <g class="d3plus-Line-shape" opacity="1">
+                        <g class="d3plus-Shape d3plus-Line d3plus-id-0" transform="translate(107, 147.5)" aria-label="" role="presentation" opacity="1" shape-rendering="geometricPrecision" pointer-events="visiblePainted">
+                            <path transform="translate(-107, -147.5)" d="M107,145L107,150" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" vector-effect="non-scaling-stroke" stroke-dashoffset="0.41783099102744303"></path>
+                        </g>
+                        <g class="d3plus-Shape d3plus-Line d3plus-id-40" transform="translate(150.5024871826172, 147.5)" aria-label="" role="presentation" opacity="1" shape-rendering="geometricPrecision" pointer-events="visiblePainted">
+                            <path transform="translate(-150.5024871826172, -147.5)" d="M150.50249386985774,145L150.50249386985774,150" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" vector-effect="non-scaling-stroke" stroke-dashoffset="0.41783099102744303"></path>
+                        </g>
+                        <g class="d3plus-Shape d3plus-Line d3plus-id-80" transform="translate(194.00498962402344, 147.5)" aria-label="" role="presentation" opacity="1" shape-rendering="geometricPrecision" pointer-events="visiblePainted">
+                            <path transform="translate(-194.00498962402344, -147.5)" d="M194.0049877397155,145L194.0049877397155,150" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" vector-effect="non-scaling-stroke" stroke-dashoffset="0.41783099102744303"></path>
+                        </g>
+                        <g class="d3plus-Shape d3plus-Line d3plus-id-120" transform="translate(237.50747680664062, 147.5)" aria-label="" role="presentation" opacity="1" shape-rendering="geometricPrecision" pointer-events="visiblePainted">
+                            <path transform="translate(-237.50747680664062, -147.5)" d="M237.50748160957323,145L237.50748160957323,150" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" vector-effect="non-scaling-stroke" stroke-dashoffset="0.41783099102744303"></path>
+                        </g>
+                    </g>
+                    <g class="d3plus-Line-image" opacity="1"></g>
+                    <g class="d3plus-Line-text" opacity="1">
+                        <g class="d3plus-textBox" id="d3plus-textBox-0_0" transform="translate(85.2487564086914, 153.55999755859375)" style="pointer-events: none;">
+                            <text dominant-baseline="alphabetic" opacity="1" aria-hidden="false" dir="ltr" fill="#fff" stroke="transparent" stroke-width="0" text-anchor="middle" font-family="Roboto" font-size="12px" font-weight="400" x="21.751246934928872px" y="12px" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;">0</text>
+                        </g>
+                        <g class="d3plus-textBox" id="d3plus-textBox-20_0" transform="translate(128.75125122070312, 153.55999755859375)" style="pointer-events: none;">
+                            <text dominant-baseline="alphabetic" opacity="1" aria-hidden="false" dir="ltr" fill="#fff" stroke="transparent" stroke-width="0" text-anchor="middle" font-family="Roboto" font-size="12px" font-weight="400" x="21.751246934928872px" y="12px" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;">20</text>
+                        </g>
+                        <g class="d3plus-textBox" id="d3plus-textBox-40_0" transform="translate(172.2537384033203, 153.55999755859375)" style="pointer-events: none;">
+                            <text dominant-baseline="alphabetic" opacity="1" aria-hidden="false" dir="ltr" fill="#fff" stroke="transparent" stroke-width="0" text-anchor="middle" font-family="Roboto" font-size="12px" font-weight="400" x="21.751246934928872px" y="12px" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;">40</text>
+                        </g>
+                        <g class="d3plus-textBox" id="d3plus-textBox-60_0" transform="translate(215.75624084472656, 153.55999755859375)" style="pointer-events: none;">
+                            <text dominant-baseline="alphabetic" opacity="1" aria-hidden="false" dir="ltr" fill="#fff" stroke="transparent" stroke-width="0" text-anchor="middle" font-family="Roboto" font-size="12px" font-weight="400" x="21.751246934928872px" y="12px" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;">60</text>
+                        </g>
+                    </g>
+                    <g class="d3plus-Line-hover"></g>
+                    <g class="d3plus-Line-active"></g>
+                </g>
+            </g>
+            <line class="bar" opacity="1" stroke="white" stroke-width="1" x1="107" x2="238.1903147030622" y1="145" y2="145"></line>
+            <g class="d3plus-Axis-title"></g>
+        </g>
+    </g>
+    <g class="d3plus-viz-back" transform=""></g>
+    <g transform="translate(0, 0)" class="d3plus-viz-title">
+        <g class="d3plus-textBox" id="d3plus-textBox-0" transform="translate(0, -1.6800000000000002) rotate(0, 125.328, 90)" style="pointer-events: auto;">
+            <text dominant-baseline="alphabetic" unicode-bidi="bidi-override" aria-hidden="true" dir="ltr" fill="#fff" stroke="transparent" stroke-width="0" text-anchor="middle" font-family="Roboto" font-size="14px" font-weight="400" x="125.328px" y="14px" opacity="1" style="baseline-shift: 0%; font-family: Roboto; font-size: 14px; font-weight: 400; opacity: 1;">General health</text>
+        </g>
+    </g>
+    <g transform="translate(107, 17)" class="d3plus-viz-total"></g>
+    <g class="d3plus-plot-background">
+        <g class="d3plus-Rect-group">
+            <g class="d3plus-Rect-shape" opacity="1">
+                <rect class="d3plus-Shape d3plus-Rect d3plus-id-0" transform="
+        translate(172.86060749430084,84)
+        scale(1)
+        rotate(0)" aria-label="" role="presentation" opacity="1" shape-rendering="geometricPrecision" width="131.72121498860167" height="122" x="-65.86060749430084" y="-61" fill="transparent" fill-opacity="1" rx="0" ry="0" stroke="rgba(0, 0, 0, 0)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" vector-effect="non-scaling-stroke"></rect>
+            </g>
+            <g class="d3plus-Rect-image" opacity="1"></g>
+            <g class="d3plus-Rect-text" opacity="1"></g>
+            <g class="d3plus-Rect-hover"></g>
+            <g class="d3plus-Rect-active"></g>
+        </g>
+    </g>
+    <g transform="translate(0, 23)" class="d3plus-plot-x-axis">
+        <g id="d3plus-Axis-c2cb9a81-3568-13c2-75f7-fa54788c675c">
+            <g class="grid">
+                <line opacity="1" clip-path="url(#d3plus-Axis-clip-c2cb9a81-3568-13c2-75f7-fa54788c675c)" stroke="transparent" stroke-width="1" x1="107" x2="107" y1="122" y2="0"></line>
+                <line opacity="1" clip-path="url(#d3plus-Axis-clip-c2cb9a81-3568-13c2-75f7-fa54788c675c)" stroke="transparent" stroke-width="1" x1="150.6785395365631" x2="150.6785395365631" y1="122" y2="0"></line>
+                <line opacity="1" clip-path="url(#d3plus-Axis-clip-c2cb9a81-3568-13c2-75f7-fa54788c675c)" stroke="transparent" stroke-width="1" x1="194.35707907312622" x2="194.35707907312622" y1="122" y2="0"></line>
+                <line opacity="1" clip-path="url(#d3plus-Axis-clip-c2cb9a81-3568-13c2-75f7-fa54788c675c)" stroke="transparent" stroke-width="1" x1="238.03561860968932" x2="238.03561860968932" y1="122" y2="0"></line>
+            </g>
+            <g class="ticks">
+                <g class="d3plus-Line-group">
+                    <g class="d3plus-Line-shape" opacity="1">
+                        <g class="d3plus-Shape d3plus-Line d3plus-id-0" transform="
+        translate(107,124.5)
+        scale(1)
+        rotate(0)" aria-label="" role="presentation" opacity="1" shape-rendering="geometricPrecision" pointer-events="visiblePainted">
+                            <path transform="translate(-107, -124.5)" d="M107,122L107,127" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" vector-effect="non-scaling-stroke" stroke-dashoffset="0"></path>
+                        </g>
+                        <g class="d3plus-Shape d3plus-Line d3plus-id-40" transform="
+        translate(150.6785395365631,124.5)
+        scale(1)
+        rotate(0)" aria-label="" role="presentation" opacity="1" shape-rendering="geometricPrecision" pointer-events="visiblePainted">
+                            <path transform="translate(-150.6785395365631, -124.5)" d="M150.6785395365631,122L150.6785395365631,127" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" vector-effect="non-scaling-stroke" stroke-dashoffset="0"></path>
+                        </g>
+                        <g class="d3plus-Shape d3plus-Line d3plus-id-80" transform="
+        translate(194.35707907312622,124.5)
+        scale(1)
+        rotate(0)" aria-label="" role="presentation" opacity="1" shape-rendering="geometricPrecision" pointer-events="visiblePainted">
+                            <path transform="translate(-194.35707907312622, -124.5)" d="M194.35707907312622,122L194.35707907312622,127" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" vector-effect="non-scaling-stroke" stroke-dashoffset="0"></path>
+                        </g>
+                        <g class="d3plus-Shape d3plus-Line d3plus-id-120" transform="
+        translate(238.03561860968932,124.5)
+        scale(1)
+        rotate(0)" aria-label="" role="presentation" opacity="1" shape-rendering="geometricPrecision" pointer-events="visiblePainted">
+                            <path transform="translate(-238.03561860968932, -124.5)" d="M238.03561860968932,122L238.03561860968932,127" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" vector-effect="non-scaling-stroke" stroke-dashoffset="0"></path>
+                        </g>
+                    </g>
+                    <g class="d3plus-Line-image" opacity="1"></g>
+                    <g class="d3plus-Line-text" opacity="1">
+                        <g class="d3plus-textBox" id="d3plus-textBox-0_0" transform="translate(85.16073023171845, 130.56) rotate(0, 21.839269768281554, 10)" style="pointer-events: none;">
+                            <text dominant-baseline="alphabetic" opacity="1" aria-hidden="false" dir="ltr" fill="#fff" stroke="transparent" stroke-width="0" text-anchor="middle" font-family="Roboto" font-size="12px" font-weight="400" x="21.839269768281554px" y="12px" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;">0</text>
+                        </g>
+                        <g class="d3plus-textBox" id="d3plus-textBox-20_0" transform="translate(128.83926976828155, 130.56) rotate(0, 21.839269768281554, 10)" style="pointer-events: none;">
+                            <text dominant-baseline="alphabetic" opacity="1" aria-hidden="false" dir="ltr" fill="#fff" stroke="transparent" stroke-width="0" text-anchor="middle" font-family="Roboto" font-size="12px" font-weight="400" x="21.839269768281554px" y="12px" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;">20</text>
+                        </g>
+                        <g class="d3plus-textBox" id="d3plus-textBox-40_0" transform="translate(172.51780930484466, 130.56) rotate(0, 21.839269768281554, 10)" style="pointer-events: none;">
+                            <text dominant-baseline="alphabetic" opacity="1" aria-hidden="false" dir="ltr" fill="#fff" stroke="transparent" stroke-width="0" text-anchor="middle" font-family="Roboto" font-size="12px" font-weight="400" x="21.839269768281554px" y="12px" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;">40</text>
+                        </g>
+                        <g class="d3plus-textBox" id="d3plus-textBox-60_0" transform="translate(216.19634884140777, 130.56) rotate(0, 21.839269768281554, 10)" style="pointer-events: none;">
+                            <text dominant-baseline="alphabetic" opacity="1" aria-hidden="false" dir="ltr" fill="#fff" stroke="transparent" stroke-width="0" text-anchor="middle" font-family="Roboto" font-size="12px" font-weight="400" x="21.839269768281554px" y="12px" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;">60</text>
+                        </g>
+                    </g>
+                    <g class="d3plus-Line-hover"></g>
+                    <g class="d3plus-Line-active"></g>
+                </g>
+            </g>
+            <line class="bar" opacity="1" stroke="white" stroke-width="1" x1="107" x2="238.72121498860167" y1="122" y2="122"></line>
+            <g class="d3plus-Axis-title"></g>
+        </g>
+    </g>
+    <g transform="translate(0, 23)" class="d3plus-plot-y-axis">
+        <g id="d3plus-Axis-f836df77-fcc9-808b-dd69-0eda46ff36c2">
+            <g class="grid">
+                <line opacity="1" clip-path="url(#d3plus-Axis-clip-f836df77-fcc9-808b-dd69-0eda46ff36c2)" stroke="transparent" stroke-width="1" y1="30.5" y2="30.5" x1="107" x2="238.72121498860167"></line>
+                <line opacity="1" clip-path="url(#d3plus-Axis-clip-f836df77-fcc9-808b-dd69-0eda46ff36c2)" stroke="transparent" stroke-width="1" y1="91.5" y2="91.5" x1="107" x2="238.72121498860167"></line>
+            </g>
+            <g class="ticks">
+                <g class="d3plus-Line-group">
+                    <g class="d3plus-Line-shape" opacity="1">
+                        <g class="d3plus-Shape d3plus-Line d3plus-id-Sleeping-problems" transform="
+        translate(104.5,30.5)
+        scale(1)
+        rotate(0)" aria-label="" role="presentation" opacity="1" shape-rendering="geometricPrecision" pointer-events="visiblePainted">
+                            <path transform="translate(-104.5, -30.5)" d="M107,30.5L102,30.5" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" vector-effect="non-scaling-stroke" stroke-dashoffset="0"></path>
+                        </g>
+                        <g class="d3plus-Shape d3plus-Line d3plus-id-Spent-a-night-in-a-hospital-in-life" transform="
+        translate(104.5,91.5)
+        scale(1)
+        rotate(0)" aria-label="" role="presentation" opacity="1" shape-rendering="geometricPrecision" pointer-events="visiblePainted">
+                            <path transform="translate(-104.5, -91.5)" d="M107,91.5L102,91.5" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" vector-effect="non-scaling-stroke" stroke-dashoffset="0"></path>
+                        </g>
+                    </g>
+                    <g class="d3plus-Line-image" opacity="1"></g>
+                    <g class="d3plus-Line-text" opacity="1">
+                        <g class="d3plus-textBox" id="d3plus-textBox-Sleeping-problems_0" transform="translate(0, 21.86) rotate(0, 48.5, 30.5)" style="pointer-events: none;">
+                            <text dominant-baseline="alphabetic" opacity="1" aria-hidden="false" dir="ltr" fill="#fff" stroke="transparent" stroke-width="0" text-anchor="end" font-family="Roboto" font-size="12px" font-weight="400" x="97px" y="12px" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;">Sleeping problems</text>
+                        </g>
+                        <g class="d3plus-textBox" id="d3plus-textBox-Spent-a-night-in-a-hospital-in-life_0" transform="translate(0, 75.66) rotate(0, 48.5, 30.5)" style="pointer-events: none;">
+                            <text dominant-baseline="alphabetic" opacity="1" aria-hidden="false" dir="ltr" fill="#fff" stroke="transparent" stroke-width="0" text-anchor="end" font-family="Roboto" font-size="12px" font-weight="400" x="97px" y="12px" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;">Spent a night in a</text>
+                            <text dominant-baseline="alphabetic" opacity="1" aria-hidden="false" dir="ltr" fill="#fff" stroke="transparent" stroke-width="0" text-anchor="end" font-family="Roboto" font-size="12px" font-weight="400" x="97px" y="26.4px" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;">hospital in life</text>
+                        </g>
+                    </g>
+                    <g class="d3plus-Line-hover"></g>
+                    <g class="d3plus-Line-active"></g>
+                </g>
+            </g>
+            <line class="bar" opacity="1" stroke="white" stroke-width="1" y1="0" y2="122" x1="107" x2="107"></line>
+            <g class="d3plus-Axis-title"></g>
+        </g>
+    </g>
+    <g transform="translate(0, 23)" class="d3plus-plot-annotations"></g>
+    <g transform="translate(0, 23)" class="d3plus-plot-shapes">
+        <g class="d3plus-Bar-group">
+            <g class="d3plus-Bar-shape" opacity="1">
+                <rect class="d3plus-Shape d3plus-Bar d3plus-id-youth" transform="
+        translate(107,105.75)
+        scale(1)
+        rotate(0)" aria-label="youth, x: 58, y: Spent a night in a hospital in life." role="presentation" opacity="1" shape-rendering="geometricPrecision" pointer-events="visiblePainted" width="126.66776465603303" height="27.5" x="0" y="-13.75" fill="rgba(255, 255, 255, 0.8)" fill-opacity="1" rx="0" ry="0" stroke="rgba(179, 179, 179, 0.8)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" vector-effect="non-scaling-stroke"></rect>
+                <rect class="d3plus-Shape d3plus-Bar d3plus-id-youth" transform="
+        translate(107,44.75)
+        scale(1)
+        rotate(0)" aria-label="youth, x: 24, y: Sleeping problems." role="presentation" opacity="1" shape-rendering="geometricPrecision" pointer-events="visiblePainted" width="52.41424744387575" height="27.5" x="0" y="-13.75" fill="rgba(255, 255, 255, 0.8)" fill-opacity="1" rx="0" ry="0" stroke="rgba(179, 179, 179, 0.8)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" vector-effect="non-scaling-stroke"></rect>
+                <rect class="d3plus-Shape d3plus-Bar d3plus-id-children" transform="
+        translate(107,77.25)
+        scale(1)
+        rotate(0)" aria-label="children, x: 48, y: Spent a night in a hospital in life." role="presentation" opacity="1" shape-rendering="geometricPrecision" pointer-events="visiblePainted" width="104.82849488775148" height="27.5" x="0" y="-13.75" fill="rgba(255, 255, 255, 0.6)" fill-opacity="1" rx="0" ry="0" stroke="rgba(179, 179, 179, 0.6)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" vector-effect="non-scaling-stroke"></rect>
+                <rect class="d3plus-Shape d3plus-Bar d3plus-id-children" transform="
+        translate(107,16.25)
+        scale(1)
+        rotate(0)" aria-label="children, x: 16, y: Sleeping problems." role="presentation" opacity="1" shape-rendering="geometricPrecision" pointer-events="visiblePainted" width="34.94283162925049" height="27.5" x="0" y="-13.75" fill="rgba(255, 255, 255, 0.6)" fill-opacity="1" rx="0" ry="0" stroke="rgba(179, 179, 179, 0.6)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" vector-effect="non-scaling-stroke"></rect>
+            </g>
+            <g class="d3plus-Bar-image" opacity="1"></g>
+            <g class="d3plus-Bar-text" opacity="1">
+                <g class="d3plus-textBox" id="d3plus-textBox-youth_0" transform="translate(112, 97.11) rotate(0, 63.333882328016514, 13.75)" style="pointer-events: none;">
+                    <text dominant-baseline="alphabetic" opacity="1" aria-hidden="false" dir="ltr" fill="#444444" stroke="transparent" stroke-width="0" text-anchor="end" font-family="Roboto" font-size="12px" font-weight="400" x="116.66776465603303px" y="12px" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;">youth</text>
+                </g>
+                <g class="d3plus-textBox" id="d3plus-textBox-youth_0" transform="translate(112, 36.11) rotate(0, 26.207123721937876, 13.75)" style="pointer-events: none;">
+                    <text dominant-baseline="alphabetic" opacity="1" aria-hidden="false" dir="ltr" fill="#444444" stroke="transparent" stroke-width="0" text-anchor="end" font-family="Roboto" font-size="12px" font-weight="400" x="42.41424744387575px" y="12px" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;">youth</text>
+                </g>
+                <g class="d3plus-textBox" id="d3plus-textBox-children_0" transform="translate(112, 68.61) rotate(0, 52.41424744387574, 13.75)" style="pointer-events: none;">
+                    <text dominant-baseline="alphabetic" opacity="1" aria-hidden="false" dir="ltr" fill="#444444" stroke="transparent" stroke-width="0" text-anchor="end" font-family="Roboto" font-size="12px" font-weight="400" x="94.82849488775148px" y="12px" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;">children</text>
+                </g>
+                <g class="d3plus-textBox" id="d3plus-textBox-children_0" transform="translate(112, 14.81) rotate(0, 17.471415814625246, 13.75)" style="pointer-events: none;">
+                    <text dominant-baseline="alphabetic" opacity="1" aria-hidden="false" dir="ltr" fill="#444444" stroke="transparent" stroke-width="0" text-anchor="end" font-family="Roboto" font-size="12px" font-weight="400" x="24.94283162925049px" y="12px" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;"></text>
+                </g>
+            </g>
+            <g class="d3plus-Bar-hover"></g>
+            <g class="d3plus-Bar-active"></g>
+        </g>
+    </g>
+</svg>

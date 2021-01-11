@@ -115,23 +115,25 @@
                             <th>
                                 <div id='lessons-legend'>
                                     <span>
-                                    <img src="img/type/pol.png">
-                                    <a href="javascript:;" class="button active" id="toggle-lessons_Policy-recommendations">
-                                        Policy recommendations
-                                    </a>
-                                </span>
+                                        <img src="img/type/pol.png">
+                                        <a href="javascript:;" class="button active"
+                                            id="toggle-lessons_Policy-recommendations">
+                                            Policy recommendations
+                                        </a>
+                                    </span>
                                     <span>
-                                    <img src="img/type/quan.png">
-                                    <a href="javascript:;" class="button active" id="toggle-lessons_Quantitative-research">
-                                        Quantitative research
-                                    </a>
-                                </span>
+                                        <img src="img/type/quan.png">
+                                        <a href="javascript:;" class="button active"
+                                            id="toggle-lessons_Quantitative-research">
+                                            Quantitative research
+                                        </a>
+                                    </span>
                                     <span>
-                                    <img src="img/type/qual.png">
-                                    <a href="javascript:;" class="button active" id="toggle-lessons_Qualitative-research">
-                                        Qualitative research
-                                    </a>
-                                </span>
+                                        <img src="img/type/qual.png">
+                                        <a href="javascript:;" class="button active" id="toggle-lessons_Qualitative-research">
+                                            Qualitative research
+                                        </a>
+                                    </span>
                                 </div>
                             </th>
                         </thead>
@@ -143,9 +145,19 @@
                 </div>
             </div>
         </div>
+        <button class="scrollToTopBtn">▲</button>
     </div>
-    <button class="scrollToTopBtn">▲</button>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <!-- <script src="src/d3js.org/d3.v4.min.js"></script> -->
+    <!-- <script src="//d3plus.org/js/d3plus-text.v0.10.full.min.js"></script> -->
+    <!-- <script src="//d3plus.org/js/d3plus-plot.v0.9.full.min.js"></script> -->
+    <!-- <script src="https://d3plus.org/js/d3plus.v2.0.0-alpha.30.full.min.js"></script> -->
+    <script src="src/d3plus2.js"></script>
+    <script src="src/tooltip.js"></script>
+    <script src="src/bubbles.js"></script>
     <script>
+        //scrolltotop
+
         var scrollToTopBtn = document.querySelector(".scrollToTopBtn")
         var rootElement = document.documentElement
 
@@ -168,14 +180,56 @@
                 behavior: "smooth"
             })
         }
-        scrollToTopBtn.addEventListener("click", scrollToTop)
-        document.addEventListener("scroll", handleScroll)
-    </script>
 
-    <script src="//d3js.org/d3.v4.min.js"></script>
-    <script src="//d3plus.org/js/d3plus-text.v0.10.full.min.js"></script>
-    <script src="src/tooltip.js"></script>
-    <script src="src/bubbles.js"></script>
+        scrollToTopBtn.addEventListener("click", scrollToTop)
+            // document.addEventListener("scroll", handleScroll)
+
+        //rescale
+
+        // var width = 1000; //defined in bubbles.js
+        // var height = 10;
+
+        var rescale = function() {
+
+            //scale content
+            var container = document.getElementsByClassName('container')[0]
+            var parent = document.body;
+            var scal = Math.min(
+                (parent.offsetWidth) /
+                width,
+                (parent.offsetHeight) /
+                height)
+
+            if (scal < 1) {
+
+                console.log('rendering...scaling', scal)
+                container.width = width
+                container.height = height
+
+                container.style.WebkitTransform = "scale(" + scal + ")";
+                container.style.OTransform = "scale(" + scal + ")";
+                container.style.MozTransform = "scale(" + scal + ")";
+                container.style.msTransform = "scale(" + scal + ")";
+                container.style.Transform = "scale(" + scal + ")";
+
+                container.style.WebkitTransformOrigin = "0% 0%";
+                container.style.OTransformOrigin = "0% 0%";
+                container.style.MozTransformOrigin = "0% 0%";
+                container.style.msTransformOrigin = "0% 0%";
+                container.style.TransformOrigin = "0% 0%";
+            } else {
+                console.log('rendering...no scaling', scal)
+                container.width = parent.offsetWidth
+                container.height = parent.offsetHeight
+            }
+
+            // container.attr('src', 'frame.html')
+
+        };
+
+        //init view
+        rescale();
+    </script>
 
 </body>
 

@@ -31,23 +31,50 @@ function bubbleChart() {
 
     // Locations to move bubbles towards, depending
     // on which view mode is selected.
-    var center = { x: width / 2, y: height / 2 };
+    var center = {
+        x: width / 2,
+        y: height / 2
+    };
 
     var groupCenters = {
         'priority': {
-            'Health': { x: 2 * width / 7, y: height / 2 },
-            'Learning': { x: 3 * width / 7, y: height / 2 },
-            'Agency': { x: 4 * width / 7, y: height / 2 },
-            'Enabling environment': { x: 5 * width / 7, y: height / 2 }
+            'Health': {
+                x: 2 * width / 7,
+                y: height / 2
+            },
+            'Learning': {
+                x: 3 * width / 7,
+                y: height / 2
+            },
+            'Agency': {
+                x: 4 * width / 7,
+                y: height / 2
+            },
+            'Enabling environment': {
+                x: 5 * width / 7,
+                y: height / 2
+            }
         }
     };
 
     var titleCenters = {
         'priority': {
-            'Health': { x: 1.4 * width / 8, y: height / 2 },
-            'Learning': { x: 2.9 * width / 8, y: height / 2 },
-            'Agency': { x: 4.6 * width / 8, y: height / 2 },
-            'Enabling environment': { x: 6.6 * width / 8, y: height / 2 }
+            'Health': {
+                x: 1.4 * width / 8,
+                y: height / 2
+            },
+            'Learning': {
+                x: 2.9 * width / 8,
+                y: height / 2
+            },
+            'Agency': {
+                x: 4.6 * width / 8,
+                y: height / 2
+            },
+            'Enabling environment': {
+                x: 6.6 * width / 8,
+                y: height / 2
+            }
         }
     };
 
@@ -129,7 +156,9 @@ function bubbleChart() {
 
         // Use the max Importance in the data as the max in the scale's domain
         // note we have to ensure the Importance is a number.
-        var maxAmount = d3.max(rawData, function(d) { return +d[radiusKey]; });
+        var maxAmount = d3.max(rawData, function(d) {
+            return +d[radiusKey];
+        });
 
         // Sizes bubbles based on area.
         // @v4: new flattened scale names.
@@ -160,7 +189,9 @@ function bubbleChart() {
         });
 
         // sort them to prevent occlusion of smaller nodes.
-        myNodes.sort(function(a, b) { return b.value - a.value; });
+        myNodes.sort(function(a, b) {
+            return b.value - a.value;
+        });
 
         return myNodes;
     }
@@ -184,10 +215,11 @@ function bubbleChart() {
         edges = rawData.edges;
         table = rawData.table;
         lessons = rawData.lessons;
+        graphs = rawData.graphs;
 
-        console.log(rawData)
-            // Create a SVG element inside the provided selector
-            // with desired size.
+        // console.log(rawData)
+        // Create a SVG element inside the provided selector
+        // with desired size.
         svg = d3.select(selector)
             .append('svg')
             .attr('width', width)
@@ -195,7 +227,9 @@ function bubbleChart() {
 
         // Bind nodes data to what will become DOM elements to represent them.
         bubbles = svg.selectAll('.bubble')
-            .data(nodes, function(d) { return d.id; });
+            .data(nodes, function(d) {
+                return d.id;
+            });
 
         // Create new circle elements each with class `bubble`.
         // There will be one circle.bubble for each object in the nodes array.
@@ -222,17 +256,30 @@ function bubbleChart() {
         if (htmlLabelsOn)
             var bubbleLabels = svg.selectAll('.bubble')
                 .append('foreignObject')
-                .attr('height', function(d) { return textOuterRadius * 2 * d.radius; })
-                .attr('width', function(d) { return textOuterRadius * 2 * d.radius; })
-                .attr('x', function(d) { return -textOuterRadius * d.radius; })
-                .attr('y', function(d) { return -textOuterRadius * d.radius; })
+                .attr('height', function(d) {
+                    return textOuterRadius * 2 * d.radius;
+                })
+                .attr('width', function(d) {
+                    return textOuterRadius * 2 * d.radius;
+                })
+                .attr('x', function(d) {
+                    return -textOuterRadius * d.radius;
+                })
+                .attr('y', function(d) {
+                    return -textOuterRadius * d.radius;
+                })
                 .classed('bubbleLabel', true)
-                .html(function(d) { return '<div class="bubbleLabelText" xmlns="http://www.w3.org/1999/xhtml">' + d.id + '</div>' })
+                .html(function(d) {
+                    return '<div class="bubbleLabelText" xmlns="http://www.w3.org/1999/xhtml">' + d.id + '</div>'
+                })
 
         if (d3LabelsOn)
             svg.selectAll('.bubble').each(function(d) {
                 var d3text = new d3plus.TextBox()
-                    .data([{ 'text': d.id, 'parent': d }])
+                    .data([{
+                        'text': d.id,
+                        'parent': d
+                    }])
                     .select(this)
                     .fontResize(true)
                     .height(0)
@@ -255,17 +302,27 @@ function bubbleChart() {
         // Fancy transition to make bubbles appear, ending with the
         // correct radius
         bubbleCircles.transition().duration(2000)
-            .attr('r', function(d) { return d.radius; });
+            .attr('r', function(d) {
+                return d.radius;
+            });
         if (htmlLabelsOn) bubbleLabels.transition().duration(2000)
             .attr('font-size', function(d) {
                 return d.radius < minTextRadius ? 0 : textRadius * d.radius;
             });
         if (d3LabelsOn) d3bubbleLabels.forEach(function(e) {
             d = e._data[0].parent;
-            e.height(function(f) { return textOuterRadius * 2.1 * d.radius; })
-                .width(function(f) { return textOuterRadius * 2 * d.radius; })
-                .x(function(f) { return -textOuterRadius * d.radius; })
-                .y(function(f) { return -textOuterRadius * d.radius; })
+            e.height(function(f) {
+                    return textOuterRadius * 2.1 * d.radius;
+                })
+                .width(function(f) {
+                    return textOuterRadius * 2 * d.radius;
+                })
+                .x(function(f) {
+                    return -textOuterRadius * d.radius;
+                })
+                .y(function(f) {
+                    return -textOuterRadius * d.radius;
+                })
                 .fontSize(function(f) {
                     return d.radius < minTextRadius ? 0 : textRadius * d.radius;
                 })
@@ -352,9 +409,128 @@ function bubbleChart() {
         }, 4000)
     }
 
+    function createGraph(i, s) {
+        i = String(i);
+
+        function colorizer(d) {
+            if (d == 'children') return d3.rgb(255, 255, 255, 0.6)
+            else if (d == 'youth') return d3.rgb(255, 255, 255, 0.8)
+            else if (d == 'parents') return d3.rgb(255, 255, 255, 1)
+            else if (d == 'teachers') return d3.rgb(255, 255, 255, 0.4)
+            else if (d == 'sometimes') return d3.rgb(255, 255, 255, 0.6)
+            else if (d == 'often') return d3.rgb(255, 255, 255, 1)
+            else if (d == 'always') return d3.rgb(255, 255, 255, 1)
+            else if (d == 'never') return d3.rgb(255, 255, 255, 0.2)
+            else if (d == 'once') return d3.rgb(255, 255, 255, 0.4)
+            else if (d == '2-3 times') return d3.rgb(255, 255, 255, 0.6)
+            else if (d == 'more than 3 times') return d3.rgb(255, 255, 255, 0.8)
+            else if (d == 'almost everyday') return d3.rgb(255, 255, 255, 1)
+            else if (d == '7-14 days') return d3.rgb(255, 255, 255, 0.8)
+            else if (d == '4-6 days') return d3.rgb(255, 255, 255, 0.6)
+            else if (d == '1-3 days') return d3.rgb(255, 255, 255, 0.4)
+            else if (d == 'not one day') return d3.rgb(255, 255, 255, 0.2)
+            else if (d == 'almost everyday') return d3.rgb(255, 255, 255, 1)
+            else if (d == 'at least once a week') return d3.rgb(255, 255, 255, 0.8)
+            else if (d == 'several times a month') return d3.rgb(255, 255, 255, 0.6)
+            else if (d == 'once a month or less') return d3.rgb(255, 255, 255, 0.4)
+            else if (d == 'mostly school') return d3.rgb(255, 255, 255, 0.2)
+            else if (d == 'mostly parents') return d3.rgb(255, 255, 255, 1)
+            else if (d == 'more parents than school') return d3.rgb(255, 255, 255, 0.8)
+            else if (d == 'both school and parents ') return d3.rgb(255, 255, 255, 0.6)
+            else if (d == 'more school than parents') return d3.rgb(255, 255, 255, 0.4)
+            else if (d == 'sex') return d3.rgb(255, 255, 255, 1)
+            else if (d == 'talked about') return d3.rgb(255, 255, 255, 1)
+            else return d3.rgb(255, 255, 255, 0.5)
+        }
+
+        if (Object.keys(graphs).indexOf(i) > -1) {
+            var options = (new Set(graphs[i].data.map(value => value.option)));
+            var ids = (new Set(graphs[i].data.map(value => value.id)));
+            // size = Math.min(7, options.size) *
+            //     // (new Set(graphs[i].data.map(value => value.id))).size + 4;
+            //     // (ids.size > 3 ? 1.5 : 1) + 4;
+            //     Math.min(3, ids.size) + 4;
+            var barHeight = 27;
+            size = options.size * Math.min(3, ids.size) * barHeight;
+            size = size * (ids.size > 1 ? (ids.size * options.size < 11 ? 1.2 : 1) : 1.3)
+            size = Math.max(150, Math.min(size, 600)) + 30;
+            s.style('min-height', size + 'px')
+
+            new d3plus.BarChart()
+                .select(s.node())
+                .config({
+                    data: graphs[i].data,
+                    title: ((graphs[i].title == 'None') ? false : graphs[i].title),
+                    titlePadding: false,
+                    label: function(d) { return (ids.size > 1) ? d['id'] : d['value'] },
+                    titleConfig: {
+                        fontSize: 14,
+                        padding: '00 0 20 0'
+                    },
+                    // barPadding: 1,
+                    // groupPadding: 5,
+                    x: "value",
+                    y: "option",
+                    discrete: 'y',
+                    loadingMessage: false,
+                    // height: size,
+                    color: function(d) {
+                        return colorizer(d.id)
+                    },
+                    yConfig: {
+                        minSize: 60,
+                        maxSize: 110,
+                        labelOffset: false,
+                        barConfig: {
+                            stroke: 'white',
+                        },
+                        gridConfig: {
+                            stroke: "transparent"
+                        },
+                        shapeConfig: {
+                            stroke: "white",
+                        }
+                    },
+                    xConfig: {
+                        barConfig: {
+                            stroke: 'white',
+                        },
+                        gridConfig: {
+                            stroke: "transparent"
+                        },
+                        shapeConfig: {
+                            stroke: "white"
+                        }
+                    },
+                    tooltipConfig: {
+                        title: function(d) {
+                            return d["id"];
+                        },
+                        tbody: [
+                            [function(d) {
+                                return d["option"] + ': '
+                            }, function(d) {
+                                return d["value"] + " %"
+                            }]
+                        ]
+                    },
+                    legend: false,
+                    duation: 500,
+                    detectVisibleInterval: 200,
+                    // detectVisible: false,
+                    // detectResize: false
+                })
+                .render();
+        }
+    }
+
     function createLessons() {
 
-        var typ = { 'Qualitative research': 'qual', 'Quantitative research': 'quan', 'Policy recommendations': 'pol' }
+        var typ = {
+            'Qualitative research': 'qual',
+            'Quantitative research': 'quan',
+            'Policy recommendations': 'pol'
+        }
         var lessonsTable = d3.select('#lessons-table')
             .selectAll('.lessonEntry')
             .data(lessons)
@@ -362,7 +538,9 @@ function bubbleChart() {
             .append('div')
             .classed('lessonEntry', true)
             .classed('lessonEntry-hidden', true)
-            .style('border-color', function(d) { return d3.rgb(fillColor(d.Priority)).darker() })
+            .style('border-color', function(d) {
+                return d3.rgb(fillColor(d.Priority)).darker()
+            })
             .style('background', function(d) {
                 return d3.rgb(fillColor(d.Priority)).darker() //'linear-gradient(to bottom right, ' +
                     //d3.rgb(fillColor(d.Priority)).darker() + ', ' +
@@ -404,8 +582,17 @@ function bubbleChart() {
                         '</td></tr></table></div>' : '') +
                     ((d.Type == 'Quantitative research') ? '<div class="lesson" style="margin-top:30px;">' + d.Quote + '</div>' : '') +
                     ((d.Type == 'Quantitative research') ?
-                        ((d.Graph != 'None') ? '<div><img src="quant/' + d.Graph + '.png" style="width:245px;margin-top:10px;"></div>' : '') : '') +
-                    '</div>'
+                        // ((d.Graph != 'None') ? '<div><img src="quant/' + d.Graph + '.png" style="width:245px;margin-top:10px;"></div>' : '') : '') +
+                        ((d.Graph != 'None') ? '' : '') : '') +
+                    '</div>' +
+                    ((d.Graph != 'None') ? '<div class="graph" id="graph' + d.Graph + '"></div>' : '')
+                    // ((d.Graph != 'None') ? '<div class="graph" id="graph' + d.Graph + '"></div><img src="svg/' + d.Graph + '.svg">' : '')
+            })
+            .classed('processed', function(d) {
+                if (d.Graph != 'None') {
+                    //createGraph(d.Graph, d3.select(this).select('.graph'))
+                    d3.select(this).select('.graph').append('img').attr('src', function(d) { return "svg/" + d.Graph + ".svg" })
+                } else return true;
             })
         d3.select('#lessons-head th')
             .on('click', function(d) {
@@ -433,7 +620,9 @@ function bubbleChart() {
      */
     function ticked() {
         bubbles
-            .attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')'; })
+            .attr('transform', function(d) {
+                return 'translate(' + d.x + ',' + d.y + ')';
+            })
             // .attr('cx', function(d) { return d.x; })
             // .attr('cy', function(d) { return d.y; });
     }
@@ -523,21 +712,33 @@ function bubbleChart() {
 
         groups.enter().append('text')
             .attr('class', 'title')
-            .attr('id', function(d) { return 'title_' + replaceSpaces(d) })
+            .attr('id', function(d) {
+                return 'title_' + replaceSpaces(d)
+            })
             .attr('x', width / 2)
             .attr('y', height / 2)
             .style('opacity', 0)
             .transition()
-            .attr('x', function(d) { return groupTitle(groupBy, d).x; })
-            .attr('y', function(d) { return groupTitle(groupBy, d).y; })
+            .attr('x', function(d) {
+                return groupTitle(groupBy, d).x;
+            })
+            .attr('y', function(d) {
+                return groupTitle(groupBy, d).y;
+            })
             .style('opacity', function(d) {
                 return d3.select('#toggle_' + replaceSpaces(d)).classed('active') ? 1 : 0;
             })
             .attr('text-anchor', 'middle')
-            .style('fill', function(d) { return d3.rgb(fillColor(d)).brighter() })
-            .style('stroke', function(d) { return d3.rgb(fillColor(d)) })
+            .style('fill', function(d) {
+                return d3.rgb(fillColor(d)).brighter()
+            })
+            .style('stroke', function(d) {
+                return d3.rgb(fillColor(d))
+            })
             .style('stroke-wdith', 1)
-            .text(function(d) { return d; })
+            .text(function(d) {
+                return d;
+            })
 
     }
 
@@ -555,8 +756,12 @@ function bubbleChart() {
         d3.select(selector)
             .selectAll('.toggle')
             .data(filterData).enter().append('a')
-            .attr('id', function(d) { return 'toggle_' + replaceSpaces(d) })
-            .attr('class', 'button toggle active').text(function(d) { return d; })
+            .attr('id', function(d) {
+                return 'toggle_' + replaceSpaces(d)
+            })
+            .attr('class', 'button toggle active').text(function(d) {
+                return d;
+            })
             .style('background-color', function(d) {
                 return fillColor(d);
             })
@@ -623,11 +828,19 @@ function bubbleChart() {
                 "none"
             if (force) {
                 d3.selectAll('.bubble').select('.bubbleCircle')
-                    .attr('fill', function(d) { return d.fill })
-                    .attr('stroke', function(d) { return d.stroke })
-                    .attr('stroke-dasharray', function(d) { return d.strokeDash })
+                    .attr('fill', function(d) {
+                        return d.fill
+                    })
+                    .attr('stroke', function(d) {
+                        return d.stroke
+                    })
+                    .attr('stroke-dasharray', function(d) {
+                        return d.strokeDash
+                    })
                 if (htmlLabelsOn) d3.selectAll('.bubbleLabel')
-                    .style('color', function(d) { return d.textColor })
+                    .style('color', function(d) {
+                        return d.textColor
+                    })
                 if (d3LabelsOn) d3bubbleLabels.forEach(function(e) {
                     d = e._data[0].parent;
                     e.fontColor(d.textColor)
@@ -644,24 +857,44 @@ function bubbleChart() {
         d3.selectAll('.bubble').select('.bubbleCircle').transition().attr('r', function(d) {
                 return d.radius + 'px';
             })
-            .attr('fill', function(d) { return d.fill })
-            .attr('stroke', function(d) { return d.stroke })
-            .attr('stroke-dasharray', function(d) { return d.strokeDash })
+            .attr('fill', function(d) {
+                return d.fill
+            })
+            .attr('stroke', function(d) {
+                return d.stroke
+            })
+            .attr('stroke-dasharray', function(d) {
+                return d.strokeDash
+            })
 
         if (htmlLabelsOn) d3.selectAll('.bubbleLabel').transition()
-            .attr('height', function(d) { return textOuterRadius * 2 * d.radius; })
-            .attr('width', function(d) { return textOuterRadius * 2 * d.radius; })
-            .attr('x', function(d) { return -textOuterRadius * d.radius; })
-            .attr('y', function(d) { return -textOuterRadius * d.radius; })
+            .attr('height', function(d) {
+                return textOuterRadius * 2 * d.radius;
+            })
+            .attr('width', function(d) {
+                return textOuterRadius * 2 * d.radius;
+            })
+            .attr('x', function(d) {
+                return -textOuterRadius * d.radius;
+            })
+            .attr('y', function(d) {
+                return -textOuterRadius * d.radius;
+            })
             .attr('font-size', function(d) {
                 return d.radius < minTextRadius ? 0 : textRadius * d.radius;
             })
-            .style('color', function(d) { return d.textColor })
+            .style('color', function(d) {
+                return d.textColor
+            })
 
         if (d3LabelsOn) d3bubbleLabels.forEach(function(e) {
             d = e._data[0].parent;
-            e.height(function(f) { return textOuterRadius * 2.1 * d.radius; })
-                .width(function(f) { return textOuterRadius * 2 * d.radius; })
+            e.height(function(f) {
+                    return textOuterRadius * 2.1 * d.radius;
+                })
+                .width(function(f) {
+                    return textOuterRadius * 2 * d.radius;
+                })
                 .fontColor(d.textColor)
                 .fontSize(function(f) {
                     return d.radius < minTextRadius ? 0 : textRadius * d.radius;
@@ -824,7 +1057,9 @@ function bubbleChart() {
      */
     function showDetail(d) {
         // change outline to indicate hover state.
-        d3.select(this).select('.bubbleCircle').attr('stroke-width', function(d) { return d.solo ? 4 : 4 });
+        d3.select(this).select('.bubbleCircle').attr('stroke-width', function(d) {
+            return d.solo ? 4 : 4
+        });
 
         var content = '<span class="name"></span><span class="value">' +
             d.id +
@@ -838,7 +1073,9 @@ function bubbleChart() {
      */
     function hideDetail(d) {
         // reset outline
-        d3.select(this).select('.bubbleCircle').attr('stroke-width', function(d) { return d.solo ? 2 : 2 });
+        d3.select(this).select('.bubbleCircle').attr('stroke-width', function(d) {
+            return d.solo ? 2 : 2
+        });
 
         tooltip.hideTooltip();
     }
