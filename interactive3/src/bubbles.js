@@ -505,7 +505,8 @@ function bubbleChart() {
                         ]
                     },
                     legend: false,
-                    detectVisibleInterval: 2000,
+                    duation: 100,
+                    detectVisibleInterval: 100,
                     // detectVisible: (i < 10) ? false : true
                 })
                 .render();
