@@ -557,6 +557,7 @@ function bubbleChart() {
                             content = ('<b class="thin">' + y + '</b><br>' + id + ': ' + x + ' %').replace('�', "'")
                             tooltip2.showTooltip(content, d3.event, offset);
                         })
+                        .on('mouseout', tooltip2.hideTooltip)
                 })
             }
 
