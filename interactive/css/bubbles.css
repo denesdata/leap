@@ -554,6 +554,7 @@ table {
 
 .graph .d3plus-Line-text text {
     /* font-size: 11px !important; */
+    fill: white !important;
 }
 
 .graph .d3plus-viz-title text {
@@ -563,4 +564,5 @@ table {
 .graph {
     padding-left: 10px;
     padding-right: 10px;
+    /* visibility: hidden; */
 }

@@ -1,0 +1,395 @@
+<svg aria-hidden="true" aria-labelledby="755b9620-2c4d-cf9a-123c-ebab0298c3e3-title 755b9620-2c4d-cf9a-123c-ebab0298c3e3-desc" class="d3plus-viz" height="450px" role="img" style="display: inline; width: 250.656px; height: 450px; cursor: auto;" width="250.656px"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title id="755b9620-2c4d-cf9a-123c-ebab0298c3e3-title"></title>
+        <desc id="755b9620-2c4d-cf9a-123c-ebab0298c3e3-desc"></desc>
+        <g class="d3plus-plot-test" opacity="0">
+                <g id="d3plus-Axis-bf901c1b-b8df-dfd1-4341-c26524a5e2fb">
+                        <g class="grid"></g>
+                        <g class="ticks">
+                                <g class="d3plus-Line-group">
+                                        <g class="d3plus-Line-shape" opacity="1">
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-for-parents-to-beat-their-children" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(114.5, 21.77777862548828)">
+                                                        <path d="M117,21.77777777777777L112,21.77777777777777" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0.9687505266039587" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-114.5, -21.77777862548828)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-for-a-man-to-beat-his-wife" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(114.5, 65.33333587646484)">
+                                                        <path d="M117,65.33333333333333L112,65.33333333333333" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0.9687505266039587" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-114.5, -65.33333587646484)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-euthanasia" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(114.5, 108.88888549804688)">
+                                                        <path d="M117,108.88888888888889L112,108.88888888888889" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0.9687505266039587" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-114.5, -108.88888549804688)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-suicide" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(114.5, 152.44444274902344)">
+                                                        <path d="M117,152.44444444444446L112,152.44444444444446" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0.9687505266039587" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-114.5, -152.44444274902344)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-sex-before-marriage" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(114.5, 196)">
+                                                        <path d="M117,196L112,196" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0.9687505266039587" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-114.5, -196)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-divorce" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(114.5, 239.55555725097656)">
+                                                        <path d="M117,239.55555555555554L112,239.55555555555554" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0.9687505266039587" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-114.5, -239.55555725097656)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-abortion" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(114.5, 283.1111145019531)">
+                                                        <path d="M117,283.11111111111114L112,283.11111111111114" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0.9687505266039587" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-114.5, -283.1111145019531)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-prostitution" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(114.5, 326.6666564941406)">
+                                                        <path d="M117,326.6666666666667L112,326.6666666666667" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0.9687505266039587" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-114.5, -326.6666564941406)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-homosexuality" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(114.5, 370.22222900390625)">
+                                                        <path d="M117,370.22222222222223L112,370.22222222222223" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0.9687505266039587" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-114.5, -370.22222900390625)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                        </g>
+                                        <g class="d3plus-Line-image" opacity="1"></g>
+                                        <g class="d3plus-Line-text" opacity="1">
+                                                <g class="d3plus-textBox" id="d3plus-textBox-for-parents-to-beat-their-children_0" style="pointer-events: none;" transform="translate(0, 5.937777996063232)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">for parents to beat</text>
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="26.4px">their children</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-for-a-man-to-beat-his-wife_0" style="pointer-events: none;" transform="translate(0, 49.49333190917969)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">for a man to beat his</text>
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="26.4px">wife</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-euthanasia_0" style="pointer-events: none;" transform="translate(0, 100.24888610839844)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">euthanasia</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-suicide_0" style="pointer-events: none;" transform="translate(0, 143.804443359375)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">suicide</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-sex-before-marriage_0" style="pointer-events: none;" transform="translate(0, 187.36000061035156)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">sex before marriage</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-divorce_0" style="pointer-events: none;" transform="translate(0, 230.91555786132812)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">divorce</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-abortion_0" style="pointer-events: none;" transform="translate(0, 274.4710998535156)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">abortion</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-prostitution_0" style="pointer-events: none;" transform="translate(0, 318.02667236328125)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">prostitution</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-homosexuality_0" style="pointer-events: none;" transform="translate(0, 361.58221435546875)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">homosexuality</text>
+                                                </g>
+                                        </g>
+                                        <g class="d3plus-Line-hover"></g>
+                                        <g class="d3plus-Line-active"></g>
+                                </g>
+                        </g>
+                        <line class="bar" opacity="1" stroke="white" stroke-width="1" x1="117" x2="117" y1="-7.105427357601002e-15" y2="392"></line>
+                        <g class="d3plus-Axis-title"></g>
+                </g>
+                <g id="d3plus-Axis-97c53931-c576-910e-5f48-8e1a29ee23c9">
+                        <g class="grid"></g>
+                        <g class="ticks">
+                                <g class="d3plus-Line-group">
+                                        <g class="d3plus-Line-shape" opacity="1">
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-0" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(117, 417.5)">
+                                                        <path d="M117,415L117,420" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0.9687505266039587" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-117, -417.5)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-40" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(143.3234405517578, 417.5)">
+                                                        <path d="M143.32343528668093,415L143.32343528668093,420" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0.9687505266039587" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-143.3234405517578, -417.5)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-80" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(169.64686584472656, 417.5)">
+                                                        <path d="M169.64687057336187,415L169.64687057336187,420" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0.9687505266039587" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-169.64686584472656, -417.5)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-120" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(195.97030639648438, 417.5)">
+                                                        <path d="M195.97030586004283,415L195.97030586004283,420" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0.9687505266039587" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-195.97030639648438, -417.5)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-160" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(222.2937469482422, 417.5)">
+                                                        <path d="M222.29374114672376,415L222.29374114672376,420" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0.9687505266039587" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-222.2937469482422, -417.5)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                        </g>
+                                        <g class="d3plus-Line-image" opacity="1"></g>
+                                        <g class="d3plus-Line-text" opacity="1">
+                                                <g class="d3plus-textBox" id="d3plus-textBox-0_0" style="pointer-events: none;" transform="translate(103.8382797241211, 423.55999755859375)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="middle" x="13.161717643340467px" y="12px">0</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-20_0" style="pointer-events: none;" transform="translate(130.16171264648438, 423.55999755859375)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="middle" x="13.161717643340467px" y="12px">20</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-40_0" style="pointer-events: none;" transform="translate(156.4851531982422, 423.55999755859375)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="middle" x="13.161717643340467px" y="12px">40</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-60_0" style="pointer-events: none;" transform="translate(182.80859375, 423.55999755859375)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="middle" x="13.161717643340467px" y="12px">60</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-80_0" style="pointer-events: none;" transform="translate(209.13201904296875, 423.55999755859375)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="middle" x="13.161717643340467px" y="12px">80</text>
+                                                </g>
+                                        </g>
+                                        <g class="d3plus-Line-hover"></g>
+                                        <g class="d3plus-Line-active"></g>
+                                </g>
+                        </g>
+                        <line class="bar" opacity="1" stroke="white" stroke-width="1" x1="117" x2="245.656" y1="415" y2="415"></line>
+                        <g class="d3plus-Axis-title"></g>
+                </g>
+        </g>
+        <g class="d3plus-viz-back" transform=""></g>
+        <g class="d3plus-viz-title" transform="translate(0, 0)">
+                <g class="d3plus-textBox" id="d3plus-textBox-0" style="pointer-events: auto;" transform="translate(0, -1.6800000000000002) rotate(0, 125.328, 90)">
+                        <text aria-hidden="true" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="14px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; font-family: Roboto; font-size: 14px; font-weight: 400; opacity: 1;" text-anchor="middle" unicode-bidi="bidi-override" x="125.328px" y="14px">It is never justified ...</text>
+                </g>
+        </g>
+        <g class="d3plus-viz-total" transform="translate(117, 17)"></g>
+        <g class="d3plus-plot-background">
+                <g class="d3plus-Rect-group">
+                        <g class="d3plus-Rect-shape" opacity="1">
+                                <rect aria-label="" class="d3plus-Shape d3plus-Rect d3plus-id-0" fill="transparent" fill-opacity="1" height="392" opacity="1" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgba(0, 0, 0, 0)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(181.328,219)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="128.656" x="-64.328" y="-196"></rect>
+                        </g>
+                        <g class="d3plus-Rect-image" opacity="1"></g>
+                        <g class="d3plus-Rect-text" opacity="1"></g>
+                        <g class="d3plus-Rect-hover"></g>
+                        <g class="d3plus-Rect-active"></g>
+                </g>
+        </g>
+        <g class="d3plus-plot-x-axis" transform="translate(0, 23)">
+                <g id="d3plus-Axis-768fb5af-7c41-f66b-eb3e-b31472095b11">
+                        <g class="grid">
+                                <line clip-path="url(#d3plus-Axis-clip-768fb5af-7c41-f66b-eb3e-b31472095b11)" opacity="1" stroke="transparent" stroke-width="1" x1="117" x2="117" y1="392" y2="0"></line>
+                                <line clip-path="url(#d3plus-Axis-clip-768fb5af-7c41-f66b-eb3e-b31472095b11)" opacity="1" stroke="transparent" stroke-width="1" x1="143.32343528668093" x2="143.32343528668093" y1="392" y2="0"></line>
+                                <line clip-path="url(#d3plus-Axis-clip-768fb5af-7c41-f66b-eb3e-b31472095b11)" opacity="1" stroke="transparent" stroke-width="1" x1="169.64687057336187" x2="169.64687057336187" y1="392" y2="0"></line>
+                                <line clip-path="url(#d3plus-Axis-clip-768fb5af-7c41-f66b-eb3e-b31472095b11)" opacity="1" stroke="transparent" stroke-width="1" x1="195.97030586004283" x2="195.97030586004283" y1="392" y2="0"></line>
+                                <line clip-path="url(#d3plus-Axis-clip-768fb5af-7c41-f66b-eb3e-b31472095b11)" opacity="1" stroke="transparent" stroke-width="1" x1="222.29374114672376" x2="222.29374114672376" y1="392" y2="0"></line>
+                        </g>
+                        <g class="ticks">
+                                <g class="d3plus-Line-group">
+                                        <g class="d3plus-Line-shape" opacity="1">
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-0" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(117, 394.5)">
+                                                        <path d="M117,392L117,397" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-117, -394.5)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-40" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(143.3234405517578, 394.5)">
+                                                        <path d="M143.32343528668093,392L143.32343528668093,397" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-143.3234405517578, -394.5)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-80" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(169.64686584472656, 394.5)">
+                                                        <path d="M169.64687057336187,392L169.64687057336187,397" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-169.64686584472656, -394.5)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-120" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(195.97030639648438, 394.5)">
+                                                        <path d="M195.97030586004283,392L195.97030586004283,397" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-195.97030639648438, -394.5)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-160" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(222.2937469482422, 394.5)">
+                                                        <path d="M222.29374114672376,392L222.29374114672376,397" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-222.2937469482422, -394.5)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                        </g>
+                                        <g class="d3plus-Line-image" opacity="1"></g>
+                                        <g class="d3plus-Line-text" opacity="1">
+                                                <g class="d3plus-textBox" id="d3plus-textBox-0_0" style="pointer-events: none;" transform="translate(103.8382797241211, 400.55999755859375)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="middle" x="13.161717643340467px" y="12px">0</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-20_0" style="pointer-events: none;" transform="translate(130.16171264648438, 400.55999755859375)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="middle" x="13.161717643340467px" y="12px">20</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-40_0" style="pointer-events: none;" transform="translate(156.4851531982422, 400.55999755859375)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="middle" x="13.161717643340467px" y="12px">40</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-60_0" style="pointer-events: none;" transform="translate(182.80859375, 400.55999755859375)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="middle" x="13.161717643340467px" y="12px">60</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-80_0" style="pointer-events: none;" transform="translate(209.13201904296875, 400.55999755859375)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="middle" x="13.161717643340467px" y="12px">80</text>
+                                                </g>
+                                        </g>
+                                        <g class="d3plus-Line-hover"></g>
+                                        <g class="d3plus-Line-active"></g>
+                                </g>
+                        </g>
+                        <line class="bar" opacity="1" stroke="white" stroke-width="1" x1="117" x2="245.656" y1="392" y2="392"></line>
+                        <g class="d3plus-Axis-title"></g>
+                </g>
+        </g>
+        <g class="d3plus-plot-y-axis" transform="translate(0, 23)">
+                <g id="d3plus-Axis-3c15d686-cb7c-2bc9-6774-6b3cbc56ea7b">
+                        <g class="grid">
+                                <line clip-path="url(#d3plus-Axis-clip-3c15d686-cb7c-2bc9-6774-6b3cbc56ea7b)" opacity="1" stroke="transparent" stroke-width="1" x1="117" x2="245.656" y1="21.77777777777777" y2="21.77777777777777"></line>
+                                <line clip-path="url(#d3plus-Axis-clip-3c15d686-cb7c-2bc9-6774-6b3cbc56ea7b)" opacity="1" stroke="transparent" stroke-width="1" x1="117" x2="245.656" y1="65.33333333333333" y2="65.33333333333333"></line>
+                                <line clip-path="url(#d3plus-Axis-clip-3c15d686-cb7c-2bc9-6774-6b3cbc56ea7b)" opacity="1" stroke="transparent" stroke-width="1" x1="117" x2="245.656" y1="108.88888888888889" y2="108.88888888888889"></line>
+                                <line clip-path="url(#d3plus-Axis-clip-3c15d686-cb7c-2bc9-6774-6b3cbc56ea7b)" opacity="1" stroke="transparent" stroke-width="1" x1="117" x2="245.656" y1="152.44444444444446" y2="152.44444444444446"></line>
+                                <line clip-path="url(#d3plus-Axis-clip-3c15d686-cb7c-2bc9-6774-6b3cbc56ea7b)" opacity="1" stroke="transparent" stroke-width="1" x1="117" x2="245.656" y1="196" y2="196"></line>
+                                <line clip-path="url(#d3plus-Axis-clip-3c15d686-cb7c-2bc9-6774-6b3cbc56ea7b)" opacity="1" stroke="transparent" stroke-width="1" x1="117" x2="245.656" y1="239.55555555555554" y2="239.55555555555554"></line>
+                                <line clip-path="url(#d3plus-Axis-clip-3c15d686-cb7c-2bc9-6774-6b3cbc56ea7b)" opacity="1" stroke="transparent" stroke-width="1" x1="117" x2="245.656" y1="283.11111111111114" y2="283.11111111111114"></line>
+                                <line clip-path="url(#d3plus-Axis-clip-3c15d686-cb7c-2bc9-6774-6b3cbc56ea7b)" opacity="1" stroke="transparent" stroke-width="1" x1="117" x2="245.656" y1="326.6666666666667" y2="326.6666666666667"></line>
+                                <line clip-path="url(#d3plus-Axis-clip-3c15d686-cb7c-2bc9-6774-6b3cbc56ea7b)" opacity="1" stroke="transparent" stroke-width="1" x1="117" x2="245.656" y1="370.22222222222223" y2="370.22222222222223"></line>
+                        </g>
+                        <g class="ticks">
+                                <g class="d3plus-Line-group">
+                                        <g class="d3plus-Line-shape" opacity="1">
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-for-parents-to-beat-their-children" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(114.5, 21.77777862548828)">
+                                                        <path d="M117,21.77777777777777L112,21.77777777777777" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-114.5, -21.77777862548828)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-for-a-man-to-beat-his-wife" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(114.5, 65.33333587646484)">
+                                                        <path d="M117,65.33333333333333L112,65.33333333333333" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-114.5, -65.33333587646484)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-euthanasia" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(114.5, 108.88888549804688)">
+                                                        <path d="M117,108.88888888888889L112,108.88888888888889" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-114.5, -108.88888549804688)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-suicide" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(114.5, 152.44444274902344)">
+                                                        <path d="M117,152.44444444444446L112,152.44444444444446" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-114.5, -152.44444274902344)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-sex-before-marriage" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(114.5, 196)">
+                                                        <path d="M117,196L112,196" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-114.5, -196)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-divorce" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(114.5, 239.55555725097656)">
+                                                        <path d="M117,239.55555555555554L112,239.55555555555554" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-114.5, -239.55555725097656)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-abortion" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(114.5, 283.1111145019531)">
+                                                        <path d="M117,283.11111111111114L112,283.11111111111114" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-114.5, -283.1111145019531)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-prostitution" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(114.5, 326.6666564941406)">
+                                                        <path d="M117,326.6666666666667L112,326.6666666666667" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-114.5, -326.6666564941406)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                                <g aria-label="" class="d3plus-Shape d3plus-Line d3plus-id-homosexuality" opacity="1" pointer-events="visiblePainted" role="presentation" shape-rendering="geometricPrecision" transform="translate(114.5, 370.22222900390625)">
+                                                        <path d="M117,370.22222222222223L112,370.22222222222223" fill="#fff" fill-opacity="1" rx="0" ry="0" stroke="white" stroke-dasharray="0" stroke-dashoffset="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="1" transform="translate(-114.5, -370.22222900390625)" vector-effect="non-scaling-stroke"></path>
+                                                </g>
+                                        </g>
+                                        <g class="d3plus-Line-image" opacity="1"></g>
+                                        <g class="d3plus-Line-text" opacity="1">
+                                                <g class="d3plus-textBox" id="d3plus-textBox-for-parents-to-beat-their-children_0" style="pointer-events: none;" transform="translate(0, 5.937777996063232)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">for parents to beat</text>
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="26.4px">their children</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-for-a-man-to-beat-his-wife_0" style="pointer-events: none;" transform="translate(0, 49.49333190917969)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">for a man to beat his</text>
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="26.4px">wife</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-euthanasia_0" style="pointer-events: none;" transform="translate(0, 100.24888610839844)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">euthanasia</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-suicide_0" style="pointer-events: none;" transform="translate(0, 143.804443359375)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">suicide</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-sex-before-marriage_0" style="pointer-events: none;" transform="translate(0, 187.36000061035156)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">sex before marriage</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-divorce_0" style="pointer-events: none;" transform="translate(0, 230.91555786132812)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">divorce</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-abortion_0" style="pointer-events: none;" transform="translate(0, 274.4710998535156)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">abortion</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-prostitution_0" style="pointer-events: none;" transform="translate(0, 318.02667236328125)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">prostitution</text>
+                                                </g>
+                                                <g class="d3plus-textBox" id="d3plus-textBox-homosexuality_0" style="pointer-events: none;" transform="translate(0, 361.58221435546875)">
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">homosexuality</text>
+                                                </g>
+                                        </g>
+                                        <g class="d3plus-Line-hover"></g>
+                                        <g class="d3plus-Line-active"></g>
+                                </g>
+                        </g>
+                        <line class="bar" opacity="1" stroke="white" stroke-width="1" x1="117" x2="117" y1="-7.105427357601002e-15" y2="392"></line>
+                        <g class="d3plus-Axis-title"></g>
+                </g>
+        </g>
+        <g class="d3plus-plot-annotations" transform="translate(0, 23)"></g>
+        <g class="d3plus-plot-shapes" transform="translate(0, 23)">
+                <g class="d3plus-Bar-group">
+                        <g class="d3plus-Bar-shape" opacity="1">
+                                <rect aria-label="youth, x: 9, y: homosexuality." class="d3plus-Shape d3plus-Bar d3plus-id-youth" fill="rgba(255, 255, 255, 0.8)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgba(179, 179, 179, 0.8)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="translate(117, 357.2037048339844)" vector-effect="non-scaling-stroke" width="11.845545879006437" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="youth, x: 26, y: prostitution." class="d3plus-Shape d3plus-Bar d3plus-id-youth" fill="rgba(255, 255, 255, 0.8)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgba(179, 179, 179, 0.8)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,313.64814814814815)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="34.220465872685224" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="youth, x: 15, y: abortion." class="d3plus-Shape d3plus-Bar d3plus-id-youth" fill="rgba(255, 255, 255, 0.8)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgba(179, 179, 179, 0.8)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,270.0925925925926)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="19.7425764650107" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="youth, x: 4, y: divorce." class="d3plus-Shape d3plus-Bar d3plus-id-youth" fill="rgba(255, 255, 255, 0.8)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgba(179, 179, 179, 0.8)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,226.537037037037)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="5.264687057336175" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="youth, x: 4, y: sex before marriage." class="d3plus-Shape d3plus-Bar d3plus-id-youth" fill="rgba(255, 255, 255, 0.8)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgba(179, 179, 179, 0.8)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,182.98148148148147)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="5.264687057336175" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="youth, x: 32, y: suicide." class="d3plus-Shape d3plus-Bar d3plus-id-youth" fill="rgba(255, 255, 255, 0.8)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgba(179, 179, 179, 0.8)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,139.42592592592592)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="42.117496458689516" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="youth, x: 28, y: euthanasia." class="d3plus-Shape d3plus-Bar d3plus-id-youth" fill="rgba(255, 255, 255, 0.8)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgba(179, 179, 179, 0.8)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,95.87037037037037)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="36.85280940135334" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="youth, x: 88, y: for a man to beat his wife." class="d3plus-Shape d3plus-Bar d3plus-id-youth" fill="rgba(255, 255, 255, 0.8)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgba(179, 179, 179, 0.8)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,52.31481481481481)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="115.82311526139614" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="youth, x: 70, y: for parents to beat their children." class="d3plus-Shape d3plus-Bar d3plus-id-youth" fill="rgba(255, 255, 255, 0.8)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgba(179, 179, 179, 0.8)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,8.759259259259252)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="92.1320235033833" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="parents, x: 25, y: homosexuality." class="d3plus-Shape d3plus-Bar d3plus-id-parents" fill="rgb(255, 255, 255)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgb(179, 179, 179)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="translate(117, 370.22222900390625)" vector-effect="non-scaling-stroke" width="32.904294108351166" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="parents, x: 42, y: prostitution." class="d3plus-Shape d3plus-Bar d3plus-id-parents" fill="rgb(255, 255, 255)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgb(179, 179, 179)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,326.6666666666667)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="55.27921410202998" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="parents, x: 25, y: abortion." class="d3plus-Shape d3plus-Bar d3plus-id-parents" fill="rgb(255, 255, 255)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgb(179, 179, 179)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,283.11111111111114)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="32.904294108351166" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="parents, x: 5, y: divorce." class="d3plus-Shape d3plus-Bar d3plus-id-parents" fill="rgb(255, 255, 255)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgb(179, 179, 179)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,239.55555555555554)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="6.580858821670233" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="parents, x: 7, y: sex before marriage." class="d3plus-Shape d3plus-Bar d3plus-id-parents" fill="rgb(255, 255, 255)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgb(179, 179, 179)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,196)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="9.213202350338335" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="parents, x: 61, y: suicide." class="d3plus-Shape d3plus-Bar d3plus-id-parents" fill="rgb(255, 255, 255)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgb(179, 179, 179)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,152.44444444444446)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="80.28647762437686" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="parents, x: 32, y: euthanasia." class="d3plus-Shape d3plus-Bar d3plus-id-parents" fill="rgb(255, 255, 255)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgb(179, 179, 179)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,108.88888888888889)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="42.117496458689516" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="parents, x: 93, y: for a man to beat his wife." class="d3plus-Shape d3plus-Bar d3plus-id-parents" fill="rgb(255, 255, 255)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgb(179, 179, 179)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,65.33333333333333)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="122.4039740830664" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="parents, x: 77, y: for parents to beat their children." class="d3plus-Shape d3plus-Bar d3plus-id-parents" fill="rgb(255, 255, 255)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgb(179, 179, 179)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,21.77777777777777)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="101.34522585372162" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="teachers, x: 29, y: homosexuality." class="d3plus-Shape d3plus-Bar d3plus-id-teachers" fill="rgba(255, 255, 255, 0.4)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgba(179, 179, 179, 0.4)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="translate(117, 383.2407531738281)" vector-effect="non-scaling-stroke" width="38.16898116568737" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="teachers, x: 46, y: prostitution." class="d3plus-Shape d3plus-Bar d3plus-id-teachers" fill="rgba(255, 255, 255, 0.4)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgba(179, 179, 179, 0.4)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,339.6851851851852)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="60.54390115936616" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="teachers, x: 17, y: abortion." class="d3plus-Shape d3plus-Bar d3plus-id-teachers" fill="rgba(255, 255, 255, 0.4)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgba(179, 179, 179, 0.4)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,296.1296296296297)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="22.374919993678816" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="teachers, x: 6, y: divorce." class="d3plus-Shape d3plus-Bar d3plus-id-teachers" fill="rgba(255, 255, 255, 0.4)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgba(179, 179, 179, 0.4)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,252.57407407407408)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="7.897030586004291" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="teachers, x: 7, y: sex before marriage." class="d3plus-Shape d3plus-Bar d3plus-id-teachers" fill="rgba(255, 255, 255, 0.4)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgba(179, 179, 179, 0.4)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,209.01851851851853)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="9.213202350338335" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="teachers, x: 60, y: suicide." class="d3plus-Shape d3plus-Bar d3plus-id-teachers" fill="rgba(255, 255, 255, 0.4)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgba(179, 179, 179, 0.4)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,165.462962962963)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="78.97030586004283" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="teachers, x: 40, y: euthanasia." class="d3plus-Shape d3plus-Bar d3plus-id-teachers" fill="rgba(255, 255, 255, 0.4)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgba(179, 179, 179, 0.4)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,121.9074074074074)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="52.646870573361866" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="teachers, x: 94, y: for a man to beat his wife." class="d3plus-Shape d3plus-Bar d3plus-id-teachers" fill="rgba(255, 255, 255, 0.4)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgba(179, 179, 179, 0.4)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,78.35185185185185)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="123.72014584740043" x="0" y="-6.2592592592592595"></rect>
+                                <rect aria-label="teachers, x: 70, y: for parents to beat their children." class="d3plus-Shape d3plus-Bar d3plus-id-teachers" fill="rgba(255, 255, 255, 0.4)" fill-opacity="1" height="12.518518518518519" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgba(179, 179, 179, 0.4)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+        translate(117,34.79629629629629)
+        scale(1)
+        rotate(0)" vector-effect="non-scaling-stroke" width="92.1320235033833" x="0" y="-6.2592592592592595"></rect>
+                        </g>
+                        <g class="d3plus-Bar-image" opacity="1"></g>
+                        <g class="d3plus-Bar-text" opacity="1"></g>
+                        <g class="d3plus-Bar-hover"></g>
+                        <g class="d3plus-Bar-active"></g>
+                </g>
+        </g>
+</svg>

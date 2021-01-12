@@ -28,11 +28,11 @@ function floatingTooltip(tooltipId, width) {
      *
      * event is d3.event for positioning.
      */
-    function showTooltip(content, event) {
+    function showTooltip(content, event, offset) {
         tt.style('opacity', 0.8)
             .html(content);
 
-        updatePosition(event);
+        updatePosition(event, offset);
     }
 
     /*
@@ -46,7 +46,7 @@ function floatingTooltip(tooltipId, width) {
      * Figure out where to place the tooltip
      * based on d3 mouse event.
      */
-    function updatePosition(event) {
+    function updatePosition(event, offset) {
         var xOffset = 20;
         var yOffset = 10;
 
@@ -62,14 +62,14 @@ function floatingTooltip(tooltipId, width) {
             curX - ttw - xOffset * 2 : curX + xOffset;
 
         if (ttleft < wscrX + xOffset) {
-            ttleft = wscrX + xOffset;
+            ttleft = wscrX + xOffset + offset[0];
         }
 
         var tttop = ((curY - wscrY + yOffset * 2 + tth) > window.innerHeight) ?
             curY - tth - yOffset * 2 : curY + yOffset;
 
         if (tttop < wscrY + yOffset) {
-            tttop = curY + yOffset;
+            tttop = curY + yOffset + offset[1];
         }
 
         tt
