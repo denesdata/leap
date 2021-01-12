@@ -265,7 +265,7 @@
                                                         <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="26.4px">school</text>
                                                 </g>
                                                 <g class="d3plus-textBox" id="d3plus-textBox-The-childs-school-results-reflect-herhis-abilities_0" style="pointer-events: none;" transform="translate(0, 242.4600067138672)">
-                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">The child's school</text>
+                                                        <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="12px">The child�s school</text>
                                                         <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="26.4px">results reflect her/his</text>
                                                         <text aria-hidden="false" dir="ltr" dominant-baseline="alphabetic" fill="#fff" font-family="Roboto" font-size="12px" font-weight="400" opacity="1" stroke="transparent" stroke-width="0" style="baseline-shift: 0%; opacity: 1; font-family: Roboto; font-size: 12px; font-weight: 400;" text-anchor="end" x="107px" y="40.8px">abilities</text>
                                                 </g>
@@ -304,7 +304,7 @@
         translate(117,324.5)
         scale(1)
         rotate(0)" vector-effect="non-scaling-stroke" width="49.48805833896017" x="0" y="-27"></rect>
-                                <rect aria-label="20, x: 20, y: The child�s school results reflect her/his abilities." class="d3plus-Shape d3plus-Bar d3plus-id-parents" fill="rgb(255, 255, 255)" fill-opacity="1" height="54" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgb(179, 179, 179)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
+                                <rect aria-label="20, x: 20, y: The child's school results reflect her/his abilities." class="d3plus-Shape d3plus-Bar d3plus-id-parents" fill="rgb(255, 255, 255)" fill-opacity="1" height="54" opacity="1" pointer-events="visiblePainted" role="presentation" rx="0" ry="0" shape-rendering="geometricPrecision" stroke="rgb(179, 179, 179)" stroke-dasharray="0" stroke-linecap="butt" stroke-opacity="1" stroke-width="0" transform="
         translate(117,265.5)
         scale(1)
         rotate(0)" vector-effect="non-scaling-stroke" width="54.98673148773352" x="0" y="-27"></rect>

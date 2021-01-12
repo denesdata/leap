@@ -47,6 +47,7 @@ function floatingTooltip(tooltipId, width) {
      * based on d3 mouse event.
      */
     function updatePosition(event, offset) {
+        if (typeof(offset) === 'undefined') offset = [0, 0];
         var xOffset = 20;
         var yOffset = 10;
 
@@ -62,15 +63,18 @@ function floatingTooltip(tooltipId, width) {
             curX - ttw - xOffset * 2 : curX + xOffset;
 
         if (ttleft < wscrX + xOffset) {
-            ttleft = wscrX + xOffset + offset[0];
+            ttleft = wscrX + xOffset;
         }
 
         var tttop = ((curY - wscrY + yOffset * 2 + tth) > window.innerHeight) ?
             curY - tth - yOffset * 2 : curY + yOffset;
 
         if (tttop < wscrY + yOffset) {
-            tttop = curY + yOffset + offset[1];
+            tttop = curY + yOffset;
         }
+
+        ttleft = ttleft + offset[0];
+        tttop = tttop + offset[1];
 
         tt
             .style('top', tttop + 'px')

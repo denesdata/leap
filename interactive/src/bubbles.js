@@ -544,12 +544,17 @@ function bubbleChart() {
                 d3.selectAll('.graph').select('object').nodes().forEach(function(n) {
                     d3.select(n.getSVGDocument())
                         .selectAll('.d3plus-Bar')
-                        .attr('fill', 'lime')
+                        // .attr('fill', 'lime')
                         .style('cursor', 'pointer')
                         .on('mouseover', function(d) {
-                            content = d3.select(this).attr('aria-label')
-                            offset = [10, 1000]
-                            console.log(content)
+                            a = d3.select(this).attr('aria-label')
+                            id = d3.select(this).attr('class')
+                            id = id.slice(id.search('d3plus-id-') + 10)
+                            offset = [n.getBoundingClientRect().x, n.getBoundingClientRect().y]
+                            x = a.slice(a.search('x:') + 3, a.search('y:') - 2)
+                            y = a.slice(a.search('y:') + 3, -1)
+                            console.log(d3.select(this))
+                            content = ('<b class="thin">' + y + '</b><br>' + id + ': ' + x + ' %').replace('�', "'")
                             tooltip2.showTooltip(content, d3.event, offset);
                         })
                 })
