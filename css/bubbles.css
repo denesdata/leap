@@ -105,6 +105,18 @@ table {
     opacity: 0;
 }
 
+#dc2 {
+    height: 0px;
+    position: relative;
+    top: -35px;
+    left: 740px;
+    color: white;
+    z-index: 2;
+    text-align: left;
+    font-size: 11px;
+    opacity: 0.3;
+}
+
 .mouse {
     height: 30px;
     vertical-align: middle;
