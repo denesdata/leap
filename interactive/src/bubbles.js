@@ -396,12 +396,7 @@ function bubbleChart() {
             .on('click', function(d) {
                 d3.select('#tabs-head').selectAll('.button').classed('active', false)
                 d3.select(this).classed('active', true)
-                d3.select('#stakeholder-all')
-                    .style('max-height', d3.select('#stakeholder-tab').classed('active') ? '99999px' : '0px')
-                    .style('opacity', d3.select('#stakeholder-tab').classed('active') ? 1 : 0)
-                d3.select('#lessons-all')
-                    .style('max-height', d3.select('#lessons-tab').classed('active') ? '99999px' : '0px')
-                    .style('opacity', d3.select('#lessons-tab').classed('active') ? 1 : 0)
+                tabsDetail();
             })
         setTimeout(function() {
             // d3.selectAll('.tableEntry')
@@ -1217,6 +1212,17 @@ function setupButtons() {
     d3.select('#legend').transition().duration(1500).delay(2500).style('opacity', 1);
     d3.select('#details').transition().duration(1500).delay(4000).style('opacity', 1);
 
+    tabsDetail();
+
+}
+
+function tabsDetail() {
+    d3.select('#stakeholder-all')
+        .style('max-height', d3.select('#stakeholder-tab').classed('active') ? '99999px' : '0px')
+        .style('opacity', d3.select('#stakeholder-tab').classed('active') ? 1 : 0)
+    d3.select('#lessons-all')
+        .style('max-height', d3.select('#lessons-tab').classed('active') ? '99999px' : '0px')
+        .style('opacity', d3.select('#lessons-tab').classed('active') ? 1 : 0)
 }
 
 // Load the data.

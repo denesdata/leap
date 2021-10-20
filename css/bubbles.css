@@ -522,10 +522,11 @@ table {
     /* transition: max-height 0.25s ease-in, opacity 0.3s ease-out; */
 }
 
-#lessons-all {
+
+/* #stakeholder-all {
     max-height: 0px;
     opacity: 0;
-}
+} */
 
 .scrollToTopBtn {
     background-color: #243666;
