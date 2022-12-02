@@ -39,11 +39,11 @@ function bubbleChart() {
 
     var groupCenters = {
         'priority': {
-            'Health': {
+            'IED': {
                 x: 2 * width / 7,
                 y: height / 2
             },
-            'Learning': {
+            'Transport': {
                 x: 3 * width / 7,
                 y: height / 2
             },
@@ -51,7 +51,7 @@ function bubbleChart() {
                 x: 4 * width / 7,
                 y: height / 2
             },
-            'Enabling environment': {
+            'Specialist lending': {
                 x: 5 * width / 7,
                 y: height / 2
             }
@@ -60,11 +60,11 @@ function bubbleChart() {
 
     var titleCenters = {
         'priority': {
-            'Health': {
+            'IED': {
                 x: 1.4 * width / 8,
                 y: height / 2
             },
-            'Learning': {
+            'Transport': {
                 x: 2.9 * width / 8,
                 y: height / 2
             },
@@ -72,7 +72,7 @@ function bubbleChart() {
                 x: 4.6 * width / 8,
                 y: height / 2
             },
-            'Enabling environment': {
+            'Specialist lending': {
                 x: 6.6 * width / 8,
                 y: height / 2
             }
@@ -132,10 +132,10 @@ function bubbleChart() {
     // Nice looking colors - no reason to buck the trend
     // @v4 scales now have a flattened naming scheme
     var fillColor = d3.scaleOrdinal(d3.schemeCategory10)
-        .domain(['Health',
-            'Learning',
+        .domain(['IED',
+            'Transport',
             'Agency',
-            'Enabling environment'
+            'Specialist lending'
         ])
         .range(['#EAD854', '#77ABDC', '#EF486F', '#39B491']);
 
